@@ -35,9 +35,9 @@
 	_yellowLayer.backgroundColor = [NSColor.yellowColor CGColor];
 	_yellowLayer.anchorPoint = CGPointMake(0.5, 0.5);
 	
-	[[self.window.contentView layer]addSublayer:_greenLayer];
-	[[self.window.contentView layer]addSublayer:_redLayer];
-	[[self.window.contentView layer]addSublayer:_yellowLayer];
+	[[self.window.contentView layer] addSublayer:_greenLayer];
+	[[self.window.contentView layer] addSublayer:_redLayer];
+	[[self.window.contentView layer] addSublayer:_yellowLayer];
 
 	CFAAction *moveAction = [CFAAction moveByX:250 y:0 duration:1];
 	CFAAction *rotateAction = [CFAAction rotateToAngle:M_PI duration:1];
@@ -50,13 +50,13 @@
 	
 	[self.greenLayer runAction:[CFAAction waitForDuration:0.5] completion:^{
 		[self.greenLayer runAction:[CFAAction sequence:@[ moveAction, [CFAAction repeatAction:rotateAction count:6], growAnimation ]] completion:^{
-			[self.greenLayer runAction:[CFAAction group:@[ scaleAnimation ]]];
+			[self.greenLayer runAction:scaleAnimation];
 		}];
 	}];
 	
 	[self.yellowLayer runAction:[CFAAction waitForDuration:0.5] completion:^{
 		[self.yellowLayer runAction:[CFAAction sequence:@[ [moveAction reversedAction], [CFAAction repeatAction:rotateAction count:6], growAnimation ]] completion:^{
-			[self.yellowLayer runAction:[CFAAction group:@[ scaleAnimation ]]];
+			[self.yellowLayer runAction:scaleAnimation];
 		}];
 	}];
 }

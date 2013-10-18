@@ -4,6 +4,7 @@
 //
 //  Created by Robert Widmann on 10/16/13.
 //  Copyright (c) 2013 CodaFi. All rights reserved.
+//  Released under the MIT license.
 //
 
 #import "CFAGroup.h"
