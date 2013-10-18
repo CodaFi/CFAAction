@@ -1,0 +1,19 @@
+//
+//  CFAActionTests-Prefix.pch
+//  CFAAction
+//
+//  Created by Robert Widmann on 10/17/13.
+//  Copyright (c) 2013 CodaFi. All rights reserved.
+//
+
+#ifndef CFAAction_CFAActionTests_Prefix_pch
+#define CFAAction_CFAActionTests_Prefix_pch
+
+#define EXP_SHORTHAND
+#import "Specta.h"
+#import "Expecta.h"
+
+#import <QuartzCore/QuartzCore.h>
+#import <CFAAction/CFAAction.h>
+
+#endif
