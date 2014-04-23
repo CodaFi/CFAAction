@@ -79,7 +79,7 @@ static NSString *const CFCAFollowPathKeypath = @"position";
 }
 
 - (void)animationDidStop:(CAAnimation *)theAnimation finished:(BOOL)flag {
-	self.finished = flag;
+	self.finished = YES;
 }
 
 #ifdef __MAC_OS_X_VERSION_MAX_ALLOWED

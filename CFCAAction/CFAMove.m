@@ -120,7 +120,7 @@ typedef NS_ENUM(int, CFMoveSubtype) {
 }
 
 - (void)animationDidStop:(CAAnimation *)theAnimation finished:(BOOL)flag {
-	self.finished = flag;
+	self.finished = YES;
 }
 
 @end

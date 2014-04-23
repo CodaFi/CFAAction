@@ -85,7 +85,7 @@ typedef NS_ENUM(int, CFSpeedSubtype) {
 }
 
 - (void)animationDidStop:(CAAnimation *)theAnimation finished:(BOOL)flag {
-	self.finished = flag;
+	self.finished = YES;
 }
 
 @end

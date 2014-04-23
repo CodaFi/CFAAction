@@ -113,7 +113,7 @@ typedef NS_ENUM(int, CFResizeSubtype) {
 }
 
 - (void)animationDidStop:(CAAnimation *)theAnimation finished:(BOOL)flag {
-	self.finished = flag;
+	self.finished = YES;
 }
 
 @end

@@ -93,7 +93,7 @@ typedef NS_ENUM(int, CFRotateSubtype) {
 }
 
 - (void)animationDidStop:(CAAnimation *)theAnimation finished:(BOOL)flag {
-	self.finished = flag;
+	self.finished = YES;
 }
 
 

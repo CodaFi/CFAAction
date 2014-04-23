@@ -62,10 +62,14 @@
 		84BB8B31181085B000A5FCA7 /* CFACustomAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BB8B2F181085B000A5FCA7 /* CFACustomAction.m */; };
 		84BB8B67181089BF00A5FCA7 /* CFAAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 843FD49E180F38B6002CDEA7 /* CFAAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		84BB8B6D181089FA00A5FCA7 /* libExpecta.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 84BB8B3B1810885400A5FCA7 /* libExpecta.a */; };
-		84BB8B6E181089FA00A5FCA7 /* libSpecta.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 84BB8B5B1810886200A5FCA7 /* libSpecta.a */; };
-		84BB8B70181089FA00A5FCA7 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84BB8B6F181089FA00A5FCA7 /* SenTestingKit.framework */; };
 		84BB8B7118108A5700A5FCA7 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 843FD4DB180F7EFF002CDEA7 /* QuartzCore.framework */; };
 		84BB8B7218108D1100A5FCA7 /* CFAActionSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BB8B641810892B00A5FCA7 /* CFAActionSpec.m */; };
+		84EF5BCA1908478A007867A7 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 843FD4A6180F38B7002CDEA7 /* XCTest.framework */; };
+		84EF5BCB19084821007867A7 /* libSpecta-OSX.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 84EF5BC11908475C007867A7 /* libSpecta-OSX.a */; };
+		84EF5BCE190848CD007867A7 /* CFATestLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 84EF5BCC190848CD007867A7 /* CFATestLayer.h */; };
+		84EF5BD01908491B007867A7 /* CFATestLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EF5BCD190848CD007867A7 /* CFATestLayer.m */; };
+		84EF5BD419084A9F007867A7 /* CFAPerformSelectorSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EF5BD319084A9F007867A7 /* CFAPerformSelectorSpec.m */; };
+		84EF5BD619084AA6007867A7 /* CFARunBlockSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EF5BD519084AA6007867A7 /* CFARunBlockSpec.m */; };
 		84FE97311810AA24001BCD56 /* CFAGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 843FD4D4180F6F7D002CDEA7 /* CFAGroup.m */; };
 /* End PBXBuildFile section */
 
@@ -112,13 +116,6 @@
 			remoteGlobalIDString = 9C4416F917FF3F4A00978F09;
 			remoteInfo = "ExpectaTests-XCTest";
 		};
-		84BB8B5A1810886200A5FCA7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 84BB8B531810886200A5FCA7 /* Specta.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = E9D96A2614B6B8AB007D9521;
-			remoteInfo = Specta;
-		};
 		84BB8B5C1810886200A5FCA7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 84BB8B531810886200A5FCA7 /* Specta.xcodeproj */;
@@ -126,28 +123,35 @@
 			remoteGlobalIDString = E9B777A414BA294B00D8DC76;
 			remoteInfo = "Specta-iOS";
 		};
-		84BB8B5E1810886200A5FCA7 /* PBXContainerItemProxy */ = {
+		84EF5BC01908475C007867A7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 84BB8B531810886200A5FCA7 /* Specta.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = E9D96A3A14B6B8AB007D9521;
-			remoteInfo = SpectaTests;
+			remoteGlobalIDString = E9901C2A18205AB100844A05;
+			remoteInfo = "Specta-OSX";
 		};
-		84BB8B601810886200A5FCA7 /* PBXContainerItemProxy */ = {
+		84EF5BC21908475C007867A7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 84BB8B531810886200A5FCA7 /* Specta.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = E9B777B314BA294C00D8DC76;
-			remoteInfo = "Specta-iOSTests";
+			remoteGlobalIDString = E9901C0D18205A3500844A05;
+			remoteInfo = "SpectaTests-iOS";
 		};
-		84BB8B69181089EC00A5FCA7 /* PBXContainerItemProxy */ = {
+		84EF5BC41908475C007867A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84BB8B531810886200A5FCA7 /* Specta.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E9901C3B18205AB100844A05;
+			remoteInfo = "Specta-OSXTests";
+		};
+		84EF5BC619084765007867A7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 84BB8B531810886200A5FCA7 /* Specta.xcodeproj */;
 			proxyType = 1;
-			remoteGlobalIDString = E9D96A2514B6B8AB007D9521;
-			remoteInfo = Specta;
+			remoteGlobalIDString = E9901C2918205AB100844A05;
+			remoteInfo = "Specta-OSX";
 		};
-		84BB8B6B181089EC00A5FCA7 /* PBXContainerItemProxy */ = {
+		84EF5BC81908476A007867A7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 84BB8B321810885400A5FCA7 /* Expecta.xcodeproj */;
 			proxyType = 1;
@@ -185,7 +189,7 @@
 		843FD49D180F38B6002CDEA7 /* CFAAction-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CFAAction-Prefix.pch"; sourceTree = "<group>"; };
 		843FD49E180F38B6002CDEA7 /* CFAAction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CFAAction.h; sourceTree = "<group>"; };
 		843FD49F180F38B6002CDEA7 /* CFAAction.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CFAAction.m; sourceTree = "<group>"; };
-		843FD4A5180F38B7002CDEA7 /* CFAActionTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CFAActionTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		843FD4A5180F38B7002CDEA7 /* CFAActionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CFAActionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		843FD4A6180F38B7002CDEA7 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		843FD4AE180F38B7002CDEA7 /* CFAActionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CFAActionTests-Info.plist"; sourceTree = "<group>"; };
 		843FD4B0180F38B7002CDEA7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -224,6 +228,10 @@
 		84BB8B621810889B00A5FCA7 /* CFAActionTests-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CFAActionTests-Prefix.pch"; sourceTree = "<group>"; };
 		84BB8B641810892B00A5FCA7 /* CFAActionSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFAActionSpec.m; sourceTree = "<group>"; };
 		84BB8B6F181089FA00A5FCA7 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		84EF5BCC190848CD007867A7 /* CFATestLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFATestLayer.h; sourceTree = "<group>"; };
+		84EF5BCD190848CD007867A7 /* CFATestLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFATestLayer.m; sourceTree = "<group>"; };
+		84EF5BD319084A9F007867A7 /* CFAPerformSelectorSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFAPerformSelectorSpec.m; sourceTree = "<group>"; };
+		84EF5BD519084AA6007867A7 /* CFARunBlockSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFARunBlockSpec.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -248,10 +256,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84EF5BCB19084821007867A7 /* libSpecta-OSX.a in Frameworks */,
+				84EF5BCA1908478A007867A7 /* XCTest.framework in Frameworks */,
 				84BB8B7118108A5700A5FCA7 /* QuartzCore.framework in Frameworks */,
-				84BB8B70181089FA00A5FCA7 /* SenTestingKit.framework in Frameworks */,
 				84BB8B6D181089FA00A5FCA7 /* libExpecta.a in Frameworks */,
-				84BB8B6E181089FA00A5FCA7 /* libSpecta.a in Frameworks */,
 				843FD4A8180F38B7002CDEA7 /* Cocoa.framework in Frameworks */,
 				843FD4AB180F38B7002CDEA7 /* CFAAction.framework in Frameworks */,
 			);
@@ -300,7 +308,7 @@
 			isa = PBXGroup;
 			children = (
 				843FD48E180F38B6002CDEA7 /* CFAAction.framework */,
-				843FD4A5180F38B7002CDEA7 /* CFAActionTests.octest */,
+				843FD4A5180F38B7002CDEA7 /* CFAActionTests.xctest */,
 				842185721811C6A40092E0A6 /* libCFAAction-iOS.a */,
 			);
 			name = Products;
@@ -385,6 +393,10 @@
 			isa = PBXGroup;
 			children = (
 				84BB8B641810892B00A5FCA7 /* CFAActionSpec.m */,
+				84EF5BD319084A9F007867A7 /* CFAPerformSelectorSpec.m */,
+				84EF5BD519084AA6007867A7 /* CFARunBlockSpec.m */,
+				84EF5BCC190848CD007867A7 /* CFATestLayer.h */,
+				84EF5BCD190848CD007867A7 /* CFATestLayer.m */,
 				843FD4AD180F38B7002CDEA7 /* Supporting Files */,
 			);
 			name = CFAActionTests;
@@ -418,10 +430,10 @@
 		84BB8B541810886200A5FCA7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				84BB8B5B1810886200A5FCA7 /* libSpecta.a */,
 				84BB8B5D1810886200A5FCA7 /* libSpecta-iOS.a */,
-				84BB8B5F1810886200A5FCA7 /* SpectaTests.octest */,
-				84BB8B611810886200A5FCA7 /* Specta-iOSTests.octest */,
+				84EF5BC11908475C007867A7 /* libSpecta-OSX.a */,
+				84EF5BC31908475C007867A7 /* SpectaTests-iOS.xctest */,
+				84EF5BC51908475C007867A7 /* Specta-OSXTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -446,6 +458,7 @@
 				84BB8B1818107A3500A5FCA7 /* CFARepeat.h in Headers */,
 				84BB8B2C1810841300A5FCA7 /* CFAPerformSelector.h in Headers */,
 				84BB8B281810826B00A5FCA7 /* CFAWait.h in Headers */,
+				84EF5BCE190848CD007867A7 /* CFATestLayer.h in Headers */,
 				84BB8B10180F88FD00A5FCA7 /* CFAScale.h in Headers */,
 				84BB8B14181076E800A5FCA7 /* CFAResize.h in Headers */,
 				84BB8B30181085B000A5FCA7 /* CFACustomAction.h in Headers */,
@@ -502,13 +515,13 @@
 			buildRules = (
 			);
 			dependencies = (
-				84BB8B6A181089EC00A5FCA7 /* PBXTargetDependency */,
-				84BB8B6C181089EC00A5FCA7 /* PBXTargetDependency */,
+				84EF5BC91908476A007867A7 /* PBXTargetDependency */,
+				84EF5BC719084765007867A7 /* PBXTargetDependency */,
 				843FD4AA180F38B7002CDEA7 /* PBXTargetDependency */,
 			);
 			name = CFAActionTests;
 			productName = CFCAActionTests;
-			productReference = 843FD4A5180F38B7002CDEA7 /* CFAActionTests.octest */;
+			productReference = 843FD4A5180F38B7002CDEA7 /* CFAActionTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -518,7 +531,8 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = CFA;
-				LastUpgradeCheck = 0500;
+				LastTestingUpgradeCheck = 0510;
+				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = CodaFi;
 				TargetAttributes = {
 					843FD4A4180F38B7002CDEA7 = {
@@ -549,8 +563,8 @@
 			projectRoot = "";
 			targets = (
 				843FD48D180F38B6002CDEA7 /* CFAAction */,
-				843FD4A4180F38B7002CDEA7 /* CFAActionTests */,
 				842185711811C6A40092E0A6 /* CFAAction-iOS */,
+				843FD4A4180F38B7002CDEA7 /* CFAActionTests */,
 			);
 		};
 /* End PBXProject section */
@@ -591,13 +605,6 @@
 			remoteRef = 84BB8B421810885400A5FCA7 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		84BB8B5B1810886200A5FCA7 /* libSpecta.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libSpecta.a;
-			remoteRef = 84BB8B5A1810886200A5FCA7 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
 		84BB8B5D1810886200A5FCA7 /* libSpecta-iOS.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
@@ -605,18 +612,25 @@
 			remoteRef = 84BB8B5C1810886200A5FCA7 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		84BB8B5F1810886200A5FCA7 /* SpectaTests.octest */ = {
+		84EF5BC11908475C007867A7 /* libSpecta-OSX.a */ = {
 			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = SpectaTests.octest;
-			remoteRef = 84BB8B5E1810886200A5FCA7 /* PBXContainerItemProxy */;
+			fileType = archive.ar;
+			path = "libSpecta-OSX.a";
+			remoteRef = 84EF5BC01908475C007867A7 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		84BB8B611810886200A5FCA7 /* Specta-iOSTests.octest */ = {
+		84EF5BC31908475C007867A7 /* SpectaTests-iOS.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
-			path = "Specta-iOSTests.octest";
-			remoteRef = 84BB8B601810886200A5FCA7 /* PBXContainerItemProxy */;
+			path = "SpectaTests-iOS.xctest";
+			remoteRef = 84EF5BC21908475C007867A7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		84EF5BC51908475C007867A7 /* Specta-OSXTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Specta-OSXTests.xctest";
+			remoteRef = 84EF5BC41908475C007867A7 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -690,7 +704,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84EF5BD619084AA6007867A7 /* CFARunBlockSpec.m in Sources */,
+				84EF5BD419084A9F007867A7 /* CFAPerformSelectorSpec.m in Sources */,
 				84BB8B7218108D1100A5FCA7 /* CFAActionSpec.m in Sources */,
+				84EF5BD01908491B007867A7 /* CFATestLayer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -702,15 +719,15 @@
 			target = 843FD48D180F38B6002CDEA7 /* CFAAction */;
 			targetProxy = 843FD4A9180F38B7002CDEA7 /* PBXContainerItemProxy */;
 		};
-		84BB8B6A181089EC00A5FCA7 /* PBXTargetDependency */ = {
+		84EF5BC719084765007867A7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = Specta;
-			targetProxy = 84BB8B69181089EC00A5FCA7 /* PBXContainerItemProxy */;
+			name = "Specta-OSX";
+			targetProxy = 84EF5BC619084765007867A7 /* PBXContainerItemProxy */;
 		};
-		84BB8B6C181089EC00A5FCA7 /* PBXTargetDependency */ = {
+		84EF5BC91908476A007867A7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Expecta;
-			targetProxy = 84BB8B6B181089EC00A5FCA7 /* PBXContainerItemProxy */;
+			targetProxy = 84EF5BC81908476A007867A7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -737,7 +754,6 @@
 		842185911811C6A50092E0A6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_ENABLE_MODULES = YES;
 				DSTROOT = /tmp/CFAAction_iOS.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -757,7 +773,6 @@
 		842185921811C6A50092E0A6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_ENABLE_MODULES = YES;
 				DSTROOT = /tmp/CFAAction_iOS.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -900,7 +915,7 @@
 				);
 				PRODUCT_NAME = CFAActionTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
+				WRAPPER_EXTENSION = xctest;
 			};
 			name = Debug;
 		};
@@ -929,7 +944,7 @@
 				);
 				PRODUCT_NAME = CFAActionTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
+				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;
 		};
@@ -943,6 +958,7 @@
 				842185921811C6A50092E0A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		843FD488180F38B6002CDEA7 /* Build configuration list for PBXProject "CFAAction" */ = {
 			isa = XCConfigurationList;

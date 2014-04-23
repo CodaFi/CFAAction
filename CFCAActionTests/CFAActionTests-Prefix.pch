@@ -9,11 +9,14 @@
 #ifndef CFAAction_CFAActionTests_Prefix_pch
 #define CFAAction_CFAActionTests_Prefix_pch
 
+#import <XCTest/XCTest.h>
+#import <QuartzCore/QuartzCore.h>
+#import <CFAAction/CFAAction.h>
+
 #define EXP_SHORTHAND
 #import "Specta.h"
 #import "Expecta.h"
 
-#import <QuartzCore/QuartzCore.h>
-#import <CFAAction/CFAAction.h>
+#import "CFATestLayer.h"
 
 #endif
