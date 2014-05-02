@@ -7,70 +7,70 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8421856B1811C2350092E0A6 /* NSBezierPath+CFABezierPathQuartzAssistant.h in Headers */ = {isa = PBXBuildFile; fileRef = 842185691811C2350092E0A6 /* NSBezierPath+CFABezierPathQuartzAssistant.h */; };
-		8421856C1811C2350092E0A6 /* NSBezierPath+CFABezierPathQuartzAssistant.m in Sources */ = {isa = PBXBuildFile; fileRef = 8421856A1811C2350092E0A6 /* NSBezierPath+CFABezierPathQuartzAssistant.m */; };
 		842185741811C6A40092E0A6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 842185731811C6A40092E0A6 /* Foundation.framework */; };
-		842185961811C6CB0092E0A6 /* CFAAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 843FD49F180F38B6002CDEA7 /* CFAAction.m */; };
-		842185971811C6CB0092E0A6 /* CFAMove.m in Sources */ = {isa = PBXBuildFile; fileRef = 843FD4C6180F3B27002CDEA7 /* CFAMove.m */; };
-		842185981811C6CB0092E0A6 /* CFARotate.m in Sources */ = {isa = PBXBuildFile; fileRef = 843FD4D8180F7169002CDEA7 /* CFARotate.m */; };
-		842185991811C6CB0092E0A6 /* CFAResize.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BB8B13181076E800A5FCA7 /* CFAResize.m */; };
-		8421859A1811C6CB0092E0A6 /* CFASequence.m in Sources */ = {isa = PBXBuildFile; fileRef = 843FD4D0180F6BEF002CDEA7 /* CFASequence.m */; };
-		8421859B1811C6CB0092E0A6 /* CFAGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 843FD4D4180F6F7D002CDEA7 /* CFAGroup.m */; };
-		8421859C1811C6CB0092E0A6 /* CFARepeat.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BB8B1718107A3500A5FCA7 /* CFARepeat.m */; };
-		8421859D1811C6CB0092E0A6 /* CFAScale.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BB8B0F180F88FD00A5FCA7 /* CFAScale.m */; };
-		8421859E1811C6CB0092E0A6 /* CFAFade.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BB8B1B18107BD600A5FCA7 /* CFAFade.m */; };
-		8421859F1811C6CB0092E0A6 /* CFAFollowPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BB8B1F18107E3300A5FCA7 /* CFAFollowPath.m */; };
-		842185A01811C6CB0092E0A6 /* CFASpeed.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BB8B23181080A800A5FCA7 /* CFASpeed.m */; };
-		842185A11811C6CB0092E0A6 /* CFAWait.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BB8B271810826B00A5FCA7 /* CFAWait.m */; };
-		842185A21811C6CB0092E0A6 /* CFARunBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 843FD4CA180F52C9002CDEA7 /* CFARunBlock.m */; };
-		842185A31811C6CB0092E0A6 /* CFAPerformSelector.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BB8B2B1810841300A5FCA7 /* CFAPerformSelector.m */; };
-		842185A41811C6CB0092E0A6 /* CFACustomAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BB8B2F181085B000A5FCA7 /* CFACustomAction.m */; };
 		843FD492180F38B6002CDEA7 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 843FD491180F38B6002CDEA7 /* Cocoa.framework */; };
-		843FD49C180F38B6002CDEA7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 843FD49A180F38B6002CDEA7 /* InfoPlist.strings */; };
-		843FD4A0180F38B6002CDEA7 /* CFAAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 843FD49F180F38B6002CDEA7 /* CFAAction.m */; };
 		843FD4A8180F38B7002CDEA7 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 843FD491180F38B6002CDEA7 /* Cocoa.framework */; };
 		843FD4AB180F38B7002CDEA7 /* CFAAction.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 843FD48E180F38B6002CDEA7 /* CFAAction.framework */; };
-		843FD4B1180F38B7002CDEA7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 843FD4AF180F38B7002CDEA7 /* InfoPlist.strings */; };
-		843FD4C7180F3B27002CDEA7 /* CFAMove.h in Headers */ = {isa = PBXBuildFile; fileRef = 843FD4C5180F3B27002CDEA7 /* CFAMove.h */; };
-		843FD4C8180F3B27002CDEA7 /* CFAMove.m in Sources */ = {isa = PBXBuildFile; fileRef = 843FD4C6180F3B27002CDEA7 /* CFAMove.m */; };
-		843FD4CB180F52C9002CDEA7 /* CFARunBlock.h in Headers */ = {isa = PBXBuildFile; fileRef = 843FD4C9180F52C9002CDEA7 /* CFARunBlock.h */; };
-		843FD4CC180F52C9002CDEA7 /* CFARunBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 843FD4CA180F52C9002CDEA7 /* CFARunBlock.m */; };
-		843FD4CE180F54CA002CDEA7 /* CFAAction+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 843FD4CD180F54CA002CDEA7 /* CFAAction+Private.h */; };
-		843FD4D1180F6BEF002CDEA7 /* CFASequence.h in Headers */ = {isa = PBXBuildFile; fileRef = 843FD4CF180F6BEF002CDEA7 /* CFASequence.h */; };
-		843FD4D2180F6BEF002CDEA7 /* CFASequence.m in Sources */ = {isa = PBXBuildFile; fileRef = 843FD4D0180F6BEF002CDEA7 /* CFASequence.m */; };
-		843FD4D5180F6F7D002CDEA7 /* CFAGroup.h in Headers */ = {isa = PBXBuildFile; fileRef = 843FD4D3180F6F7D002CDEA7 /* CFAGroup.h */; };
-		843FD4D9180F7169002CDEA7 /* CFARotate.h in Headers */ = {isa = PBXBuildFile; fileRef = 843FD4D7180F7169002CDEA7 /* CFARotate.h */; };
-		843FD4DA180F7169002CDEA7 /* CFARotate.m in Sources */ = {isa = PBXBuildFile; fileRef = 843FD4D8180F7169002CDEA7 /* CFARotate.m */; };
 		843FD4DC180F7EFF002CDEA7 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 843FD4DB180F7EFF002CDEA7 /* QuartzCore.framework */; };
-		84BB8B10180F88FD00A5FCA7 /* CFAScale.h in Headers */ = {isa = PBXBuildFile; fileRef = 84BB8B0E180F88FD00A5FCA7 /* CFAScale.h */; };
-		84BB8B11180F88FD00A5FCA7 /* CFAScale.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BB8B0F180F88FD00A5FCA7 /* CFAScale.m */; };
-		84BB8B14181076E800A5FCA7 /* CFAResize.h in Headers */ = {isa = PBXBuildFile; fileRef = 84BB8B12181076E800A5FCA7 /* CFAResize.h */; };
-		84BB8B15181076E800A5FCA7 /* CFAResize.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BB8B13181076E800A5FCA7 /* CFAResize.m */; };
-		84BB8B1818107A3500A5FCA7 /* CFARepeat.h in Headers */ = {isa = PBXBuildFile; fileRef = 84BB8B1618107A3500A5FCA7 /* CFARepeat.h */; };
-		84BB8B1918107A3500A5FCA7 /* CFARepeat.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BB8B1718107A3500A5FCA7 /* CFARepeat.m */; };
-		84BB8B1C18107BD600A5FCA7 /* CFAFade.h in Headers */ = {isa = PBXBuildFile; fileRef = 84BB8B1A18107BD600A5FCA7 /* CFAFade.h */; };
-		84BB8B1D18107BD600A5FCA7 /* CFAFade.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BB8B1B18107BD600A5FCA7 /* CFAFade.m */; };
-		84BB8B2018107E3300A5FCA7 /* CFAFollowPath.h in Headers */ = {isa = PBXBuildFile; fileRef = 84BB8B1E18107E3300A5FCA7 /* CFAFollowPath.h */; };
-		84BB8B2118107E3300A5FCA7 /* CFAFollowPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BB8B1F18107E3300A5FCA7 /* CFAFollowPath.m */; };
-		84BB8B24181080A800A5FCA7 /* CFASpeed.h in Headers */ = {isa = PBXBuildFile; fileRef = 84BB8B22181080A800A5FCA7 /* CFASpeed.h */; };
-		84BB8B25181080A800A5FCA7 /* CFASpeed.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BB8B23181080A800A5FCA7 /* CFASpeed.m */; };
-		84BB8B281810826B00A5FCA7 /* CFAWait.h in Headers */ = {isa = PBXBuildFile; fileRef = 84BB8B261810826B00A5FCA7 /* CFAWait.h */; };
-		84BB8B291810826B00A5FCA7 /* CFAWait.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BB8B271810826B00A5FCA7 /* CFAWait.m */; };
-		84BB8B2C1810841300A5FCA7 /* CFAPerformSelector.h in Headers */ = {isa = PBXBuildFile; fileRef = 84BB8B2A1810841300A5FCA7 /* CFAPerformSelector.h */; };
-		84BB8B2D1810841300A5FCA7 /* CFAPerformSelector.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BB8B2B1810841300A5FCA7 /* CFAPerformSelector.m */; };
-		84BB8B30181085B000A5FCA7 /* CFACustomAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 84BB8B2E181085B000A5FCA7 /* CFACustomAction.h */; };
-		84BB8B31181085B000A5FCA7 /* CFACustomAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BB8B2F181085B000A5FCA7 /* CFACustomAction.m */; };
-		84BB8B67181089BF00A5FCA7 /* CFAAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 843FD49E180F38B6002CDEA7 /* CFAAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		84BB8B6D181089FA00A5FCA7 /* libExpecta.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 84BB8B3B1810885400A5FCA7 /* libExpecta.a */; };
 		84BB8B7118108A5700A5FCA7 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 843FD4DB180F7EFF002CDEA7 /* QuartzCore.framework */; };
-		84BB8B7218108D1100A5FCA7 /* CFAActionSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BB8B641810892B00A5FCA7 /* CFAActionSpec.m */; };
+		84D5D1291914524500022517 /* CFAActionSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D5D1241914524500022517 /* CFAActionSpec.m */; };
+		84D5D12A1914524500022517 /* CFAPerformSelectorSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D5D1251914524500022517 /* CFAPerformSelectorSpec.m */; };
+		84D5D12B1914524500022517 /* CFARunBlockSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D5D1261914524500022517 /* CFARunBlockSpec.m */; };
+		84D5D1321914525500022517 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84D5D1301914525500022517 /* InfoPlist.strings */; };
+		84D5D1361914530100022517 /* CFATestLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D5D1351914530100022517 /* CFATestLayer.m */; };
+		84D5D1581914536400022517 /* CFAAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 84D5D1371914536400022517 /* CFAAction.h */; };
+		84D5D1591914536400022517 /* CFAAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D5D1381914536400022517 /* CFAAction.m */; };
+		84D5D15A1914536400022517 /* CFAAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D5D1381914536400022517 /* CFAAction.m */; };
+		84D5D15B1914536400022517 /* CFAAction+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 84D5D1391914536400022517 /* CFAAction+Private.h */; };
+		84D5D15C1914536400022517 /* CFACustomAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 84D5D13A1914536400022517 /* CFACustomAction.h */; };
+		84D5D15D1914536400022517 /* CFACustomAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D5D13B1914536400022517 /* CFACustomAction.m */; };
+		84D5D15E1914536400022517 /* CFACustomAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D5D13B1914536400022517 /* CFACustomAction.m */; };
+		84D5D15F1914536400022517 /* CFAFade.h in Headers */ = {isa = PBXBuildFile; fileRef = 84D5D13C1914536400022517 /* CFAFade.h */; };
+		84D5D1601914536400022517 /* CFAFade.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D5D13D1914536400022517 /* CFAFade.m */; };
+		84D5D1611914536400022517 /* CFAFade.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D5D13D1914536400022517 /* CFAFade.m */; };
+		84D5D1621914536400022517 /* CFAFollowPath.h in Headers */ = {isa = PBXBuildFile; fileRef = 84D5D13E1914536400022517 /* CFAFollowPath.h */; };
+		84D5D1631914536400022517 /* CFAFollowPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D5D13F1914536400022517 /* CFAFollowPath.m */; };
+		84D5D1641914536400022517 /* CFAFollowPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D5D13F1914536400022517 /* CFAFollowPath.m */; };
+		84D5D1651914536400022517 /* CFAGroup.h in Headers */ = {isa = PBXBuildFile; fileRef = 84D5D1401914536400022517 /* CFAGroup.h */; };
+		84D5D1661914536400022517 /* CFAGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D5D1411914536400022517 /* CFAGroup.m */; };
+		84D5D1671914536400022517 /* CFAGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D5D1411914536400022517 /* CFAGroup.m */; };
+		84D5D1681914536400022517 /* CFAMove.h in Headers */ = {isa = PBXBuildFile; fileRef = 84D5D1421914536400022517 /* CFAMove.h */; };
+		84D5D1691914536400022517 /* CFAMove.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D5D1431914536400022517 /* CFAMove.m */; };
+		84D5D16A1914536400022517 /* CFAMove.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D5D1431914536400022517 /* CFAMove.m */; };
+		84D5D16B1914536400022517 /* CFAPerformSelector.h in Headers */ = {isa = PBXBuildFile; fileRef = 84D5D1441914536400022517 /* CFAPerformSelector.h */; };
+		84D5D16C1914536400022517 /* CFAPerformSelector.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D5D1451914536400022517 /* CFAPerformSelector.m */; };
+		84D5D16D1914536400022517 /* CFAPerformSelector.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D5D1451914536400022517 /* CFAPerformSelector.m */; };
+		84D5D16E1914536400022517 /* CFARepeat.h in Headers */ = {isa = PBXBuildFile; fileRef = 84D5D1461914536400022517 /* CFARepeat.h */; };
+		84D5D16F1914536400022517 /* CFARepeat.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D5D1471914536400022517 /* CFARepeat.m */; };
+		84D5D1701914536400022517 /* CFARepeat.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D5D1471914536400022517 /* CFARepeat.m */; };
+		84D5D1711914536400022517 /* CFAResize.h in Headers */ = {isa = PBXBuildFile; fileRef = 84D5D1481914536400022517 /* CFAResize.h */; };
+		84D5D1721914536400022517 /* CFAResize.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D5D1491914536400022517 /* CFAResize.m */; };
+		84D5D1731914536400022517 /* CFAResize.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D5D1491914536400022517 /* CFAResize.m */; };
+		84D5D1741914536400022517 /* CFARotate.h in Headers */ = {isa = PBXBuildFile; fileRef = 84D5D14A1914536400022517 /* CFARotate.h */; };
+		84D5D1751914536400022517 /* CFARotate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D5D14B1914536400022517 /* CFARotate.m */; };
+		84D5D1761914536400022517 /* CFARotate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D5D14B1914536400022517 /* CFARotate.m */; };
+		84D5D1771914536400022517 /* CFARunBlock.h in Headers */ = {isa = PBXBuildFile; fileRef = 84D5D14C1914536400022517 /* CFARunBlock.h */; };
+		84D5D1781914536400022517 /* CFARunBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D5D14D1914536400022517 /* CFARunBlock.m */; };
+		84D5D1791914536400022517 /* CFARunBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D5D14D1914536400022517 /* CFARunBlock.m */; };
+		84D5D17A1914536400022517 /* CFAScale.h in Headers */ = {isa = PBXBuildFile; fileRef = 84D5D14E1914536400022517 /* CFAScale.h */; };
+		84D5D17B1914536400022517 /* CFAScale.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D5D14F1914536400022517 /* CFAScale.m */; };
+		84D5D17C1914536400022517 /* CFAScale.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D5D14F1914536400022517 /* CFAScale.m */; };
+		84D5D17D1914536400022517 /* CFASequence.h in Headers */ = {isa = PBXBuildFile; fileRef = 84D5D1501914536400022517 /* CFASequence.h */; };
+		84D5D17E1914536400022517 /* CFASequence.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D5D1511914536400022517 /* CFASequence.m */; };
+		84D5D17F1914536400022517 /* CFASequence.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D5D1511914536400022517 /* CFASequence.m */; };
+		84D5D1801914536400022517 /* CFASpeed.h in Headers */ = {isa = PBXBuildFile; fileRef = 84D5D1521914536400022517 /* CFASpeed.h */; };
+		84D5D1811914536400022517 /* CFASpeed.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D5D1531914536400022517 /* CFASpeed.m */; };
+		84D5D1821914536400022517 /* CFASpeed.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D5D1531914536400022517 /* CFASpeed.m */; };
+		84D5D1831914536400022517 /* CFAWait.h in Headers */ = {isa = PBXBuildFile; fileRef = 84D5D1541914536400022517 /* CFAWait.h */; };
+		84D5D1841914536400022517 /* CFAWait.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D5D1551914536400022517 /* CFAWait.m */; };
+		84D5D1851914536400022517 /* CFAWait.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D5D1551914536400022517 /* CFAWait.m */; };
+		84D5D1861914536400022517 /* NSBezierPath+CFABezierPathQuartzAssistant.h in Headers */ = {isa = PBXBuildFile; fileRef = 84D5D1561914536400022517 /* NSBezierPath+CFABezierPathQuartzAssistant.h */; };
+		84D5D1871914536400022517 /* NSBezierPath+CFABezierPathQuartzAssistant.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D5D1571914536400022517 /* NSBezierPath+CFABezierPathQuartzAssistant.m */; };
+		84D5D18D1914538400022517 /* CFAAction-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 84D5D18B1914538400022517 /* CFAAction-Prefix.pch */; };
+		84D5D1901914538C00022517 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84D5D18E1914538C00022517 /* InfoPlist.strings */; };
 		84EF5BCA1908478A007867A7 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 843FD4A6180F38B7002CDEA7 /* XCTest.framework */; };
 		84EF5BCB19084821007867A7 /* libSpecta-OSX.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 84EF5BC11908475C007867A7 /* libSpecta-OSX.a */; };
-		84EF5BCE190848CD007867A7 /* CFATestLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 84EF5BCC190848CD007867A7 /* CFATestLayer.h */; };
-		84EF5BD01908491B007867A7 /* CFATestLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EF5BCD190848CD007867A7 /* CFATestLayer.m */; };
-		84EF5BD419084A9F007867A7 /* CFAPerformSelectorSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EF5BD319084A9F007867A7 /* CFAPerformSelectorSpec.m */; };
-		84EF5BD619084AA6007867A7 /* CFARunBlockSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EF5BD519084AA6007867A7 /* CFARunBlockSpec.m */; };
-		84FE97311810AA24001BCD56 /* CFAGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 843FD4D4180F6F7D002CDEA7 /* CFAGroup.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -173,65 +173,64 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		842185691811C2350092E0A6 /* NSBezierPath+CFABezierPathQuartzAssistant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBezierPath+CFABezierPathQuartzAssistant.h"; sourceTree = "<group>"; };
-		8421856A1811C2350092E0A6 /* NSBezierPath+CFABezierPathQuartzAssistant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBezierPath+CFABezierPathQuartzAssistant.m"; sourceTree = "<group>"; };
 		842185721811C6A40092E0A6 /* libCFAAction-iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libCFAAction-iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		842185731811C6A40092E0A6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		842185771811C6A40092E0A6 /* CFAAction-iOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CFAAction-iOS-Prefix.pch"; sourceTree = "<group>"; };
 		842185831811C6A50092E0A6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		843FD48E180F38B6002CDEA7 /* CFAAction.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CFAAction.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		843FD491180F38B6002CDEA7 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		843FD494180F38B6002CDEA7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		843FD495180F38B6002CDEA7 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		843FD496180F38B6002CDEA7 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
-		843FD499180F38B6002CDEA7 /* CFAAction-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CFAAction-Info.plist"; sourceTree = "<group>"; };
-		843FD49B180F38B6002CDEA7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		843FD49D180F38B6002CDEA7 /* CFAAction-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CFAAction-Prefix.pch"; sourceTree = "<group>"; };
-		843FD49E180F38B6002CDEA7 /* CFAAction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CFAAction.h; sourceTree = "<group>"; };
-		843FD49F180F38B6002CDEA7 /* CFAAction.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CFAAction.m; sourceTree = "<group>"; };
 		843FD4A5180F38B7002CDEA7 /* CFAActionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CFAActionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		843FD4A6180F38B7002CDEA7 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		843FD4AE180F38B7002CDEA7 /* CFAActionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CFAActionTests-Info.plist"; sourceTree = "<group>"; };
-		843FD4B0180F38B7002CDEA7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		843FD4C5180F3B27002CDEA7 /* CFAMove.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFAMove.h; sourceTree = "<group>"; };
-		843FD4C6180F3B27002CDEA7 /* CFAMove.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFAMove.m; sourceTree = "<group>"; };
-		843FD4C9180F52C9002CDEA7 /* CFARunBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFARunBlock.h; sourceTree = "<group>"; };
-		843FD4CA180F52C9002CDEA7 /* CFARunBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFARunBlock.m; sourceTree = "<group>"; };
-		843FD4CD180F54CA002CDEA7 /* CFAAction+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CFAAction+Private.h"; sourceTree = "<group>"; };
-		843FD4CF180F6BEF002CDEA7 /* CFASequence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFASequence.h; sourceTree = "<group>"; };
-		843FD4D0180F6BEF002CDEA7 /* CFASequence.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFASequence.m; sourceTree = "<group>"; };
-		843FD4D3180F6F7D002CDEA7 /* CFAGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFAGroup.h; sourceTree = "<group>"; };
-		843FD4D4180F6F7D002CDEA7 /* CFAGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFAGroup.m; sourceTree = "<group>"; };
-		843FD4D7180F7169002CDEA7 /* CFARotate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFARotate.h; sourceTree = "<group>"; };
-		843FD4D8180F7169002CDEA7 /* CFARotate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFARotate.m; sourceTree = "<group>"; };
 		843FD4DB180F7EFF002CDEA7 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		84BB8B0E180F88FD00A5FCA7 /* CFAScale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFAScale.h; sourceTree = "<group>"; };
-		84BB8B0F180F88FD00A5FCA7 /* CFAScale.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFAScale.m; sourceTree = "<group>"; };
-		84BB8B12181076E800A5FCA7 /* CFAResize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFAResize.h; sourceTree = "<group>"; };
-		84BB8B13181076E800A5FCA7 /* CFAResize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFAResize.m; sourceTree = "<group>"; };
-		84BB8B1618107A3500A5FCA7 /* CFARepeat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFARepeat.h; sourceTree = "<group>"; };
-		84BB8B1718107A3500A5FCA7 /* CFARepeat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFARepeat.m; sourceTree = "<group>"; };
-		84BB8B1A18107BD600A5FCA7 /* CFAFade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFAFade.h; sourceTree = "<group>"; };
-		84BB8B1B18107BD600A5FCA7 /* CFAFade.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFAFade.m; sourceTree = "<group>"; };
-		84BB8B1E18107E3300A5FCA7 /* CFAFollowPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFAFollowPath.h; sourceTree = "<group>"; };
-		84BB8B1F18107E3300A5FCA7 /* CFAFollowPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFAFollowPath.m; sourceTree = "<group>"; };
-		84BB8B22181080A800A5FCA7 /* CFASpeed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFASpeed.h; sourceTree = "<group>"; };
-		84BB8B23181080A800A5FCA7 /* CFASpeed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFASpeed.m; sourceTree = "<group>"; };
-		84BB8B261810826B00A5FCA7 /* CFAWait.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFAWait.h; sourceTree = "<group>"; };
-		84BB8B271810826B00A5FCA7 /* CFAWait.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFAWait.m; sourceTree = "<group>"; };
-		84BB8B2A1810841300A5FCA7 /* CFAPerformSelector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFAPerformSelector.h; sourceTree = "<group>"; };
-		84BB8B2B1810841300A5FCA7 /* CFAPerformSelector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFAPerformSelector.m; sourceTree = "<group>"; };
-		84BB8B2E181085B000A5FCA7 /* CFACustomAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFACustomAction.h; sourceTree = "<group>"; };
-		84BB8B2F181085B000A5FCA7 /* CFACustomAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFACustomAction.m; sourceTree = "<group>"; };
 		84BB8B321810885400A5FCA7 /* Expecta.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Expecta.xcodeproj; path = External/Expecta/Expecta.xcodeproj; sourceTree = SOURCE_ROOT; };
 		84BB8B531810886200A5FCA7 /* Specta.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Specta.xcodeproj; path = External/Specta/Specta.xcodeproj; sourceTree = SOURCE_ROOT; };
-		84BB8B621810889B00A5FCA7 /* CFAActionTests-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CFAActionTests-Prefix.pch"; sourceTree = "<group>"; };
-		84BB8B641810892B00A5FCA7 /* CFAActionSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFAActionSpec.m; sourceTree = "<group>"; };
 		84BB8B6F181089FA00A5FCA7 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		84EF5BCC190848CD007867A7 /* CFATestLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFATestLayer.h; sourceTree = "<group>"; };
-		84EF5BCD190848CD007867A7 /* CFATestLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFATestLayer.m; sourceTree = "<group>"; };
-		84EF5BD319084A9F007867A7 /* CFAPerformSelectorSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFAPerformSelectorSpec.m; sourceTree = "<group>"; };
-		84EF5BD519084AA6007867A7 /* CFARunBlockSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFARunBlockSpec.m; sourceTree = "<group>"; };
+		84D5D1241914524500022517 /* CFAActionSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CFAActionSpec.m; path = CFAActionTests/CFAActionSpec.m; sourceTree = SOURCE_ROOT; };
+		84D5D1251914524500022517 /* CFAPerformSelectorSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CFAPerformSelectorSpec.m; path = CFAActionTests/CFAPerformSelectorSpec.m; sourceTree = SOURCE_ROOT; };
+		84D5D1261914524500022517 /* CFARunBlockSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CFARunBlockSpec.m; path = CFAActionTests/CFARunBlockSpec.m; sourceTree = SOURCE_ROOT; };
+		84D5D12D1914525000022517 /* CFAActionTests-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "CFAActionTests-Info.plist"; path = "CFAActionTests/CFAActionTests-Info.plist"; sourceTree = SOURCE_ROOT; };
+		84D5D12E1914525000022517 /* CFAActionTests-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "CFAActionTests-Prefix.pch"; path = "CFAActionTests/CFAActionTests-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		84D5D1311914525500022517 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = CFAActionTests/en.lproj/InfoPlist.strings; sourceTree = SOURCE_ROOT; };
+		84D5D1341914530100022517 /* CFATestLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CFATestLayer.h; path = CFAActionTests/CFATestLayer.h; sourceTree = SOURCE_ROOT; };
+		84D5D1351914530100022517 /* CFATestLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CFATestLayer.m; path = CFAActionTests/CFATestLayer.m; sourceTree = SOURCE_ROOT; };
+		84D5D1371914536400022517 /* CFAAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CFAAction.h; path = CFAAction/CFAAction.h; sourceTree = SOURCE_ROOT; };
+		84D5D1381914536400022517 /* CFAAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CFAAction.m; path = CFAAction/CFAAction.m; sourceTree = SOURCE_ROOT; };
+		84D5D1391914536400022517 /* CFAAction+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "CFAAction+Private.h"; path = "CFAAction/CFAAction+Private.h"; sourceTree = SOURCE_ROOT; };
+		84D5D13A1914536400022517 /* CFACustomAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CFACustomAction.h; path = CFAAction/CFACustomAction.h; sourceTree = SOURCE_ROOT; };
+		84D5D13B1914536400022517 /* CFACustomAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CFACustomAction.m; path = CFAAction/CFACustomAction.m; sourceTree = SOURCE_ROOT; };
+		84D5D13C1914536400022517 /* CFAFade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CFAFade.h; path = CFAAction/CFAFade.h; sourceTree = SOURCE_ROOT; };
+		84D5D13D1914536400022517 /* CFAFade.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CFAFade.m; path = CFAAction/CFAFade.m; sourceTree = SOURCE_ROOT; };
+		84D5D13E1914536400022517 /* CFAFollowPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CFAFollowPath.h; path = CFAAction/CFAFollowPath.h; sourceTree = SOURCE_ROOT; };
+		84D5D13F1914536400022517 /* CFAFollowPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CFAFollowPath.m; path = CFAAction/CFAFollowPath.m; sourceTree = SOURCE_ROOT; };
+		84D5D1401914536400022517 /* CFAGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CFAGroup.h; path = CFAAction/CFAGroup.h; sourceTree = SOURCE_ROOT; };
+		84D5D1411914536400022517 /* CFAGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CFAGroup.m; path = CFAAction/CFAGroup.m; sourceTree = SOURCE_ROOT; };
+		84D5D1421914536400022517 /* CFAMove.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CFAMove.h; path = CFAAction/CFAMove.h; sourceTree = SOURCE_ROOT; };
+		84D5D1431914536400022517 /* CFAMove.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CFAMove.m; path = CFAAction/CFAMove.m; sourceTree = SOURCE_ROOT; };
+		84D5D1441914536400022517 /* CFAPerformSelector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CFAPerformSelector.h; path = CFAAction/CFAPerformSelector.h; sourceTree = SOURCE_ROOT; };
+		84D5D1451914536400022517 /* CFAPerformSelector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CFAPerformSelector.m; path = CFAAction/CFAPerformSelector.m; sourceTree = SOURCE_ROOT; };
+		84D5D1461914536400022517 /* CFARepeat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CFARepeat.h; path = CFAAction/CFARepeat.h; sourceTree = SOURCE_ROOT; };
+		84D5D1471914536400022517 /* CFARepeat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CFARepeat.m; path = CFAAction/CFARepeat.m; sourceTree = SOURCE_ROOT; };
+		84D5D1481914536400022517 /* CFAResize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CFAResize.h; path = CFAAction/CFAResize.h; sourceTree = SOURCE_ROOT; };
+		84D5D1491914536400022517 /* CFAResize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CFAResize.m; path = CFAAction/CFAResize.m; sourceTree = SOURCE_ROOT; };
+		84D5D14A1914536400022517 /* CFARotate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CFARotate.h; path = CFAAction/CFARotate.h; sourceTree = SOURCE_ROOT; };
+		84D5D14B1914536400022517 /* CFARotate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CFARotate.m; path = CFAAction/CFARotate.m; sourceTree = SOURCE_ROOT; };
+		84D5D14C1914536400022517 /* CFARunBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CFARunBlock.h; path = CFAAction/CFARunBlock.h; sourceTree = SOURCE_ROOT; };
+		84D5D14D1914536400022517 /* CFARunBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CFARunBlock.m; path = CFAAction/CFARunBlock.m; sourceTree = SOURCE_ROOT; };
+		84D5D14E1914536400022517 /* CFAScale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CFAScale.h; path = CFAAction/CFAScale.h; sourceTree = SOURCE_ROOT; };
+		84D5D14F1914536400022517 /* CFAScale.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CFAScale.m; path = CFAAction/CFAScale.m; sourceTree = SOURCE_ROOT; };
+		84D5D1501914536400022517 /* CFASequence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CFASequence.h; path = CFAAction/CFASequence.h; sourceTree = SOURCE_ROOT; };
+		84D5D1511914536400022517 /* CFASequence.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CFASequence.m; path = CFAAction/CFASequence.m; sourceTree = SOURCE_ROOT; };
+		84D5D1521914536400022517 /* CFASpeed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CFASpeed.h; path = CFAAction/CFASpeed.h; sourceTree = SOURCE_ROOT; };
+		84D5D1531914536400022517 /* CFASpeed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CFASpeed.m; path = CFAAction/CFASpeed.m; sourceTree = SOURCE_ROOT; };
+		84D5D1541914536400022517 /* CFAWait.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CFAWait.h; path = CFAAction/CFAWait.h; sourceTree = SOURCE_ROOT; };
+		84D5D1551914536400022517 /* CFAWait.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CFAWait.m; path = CFAAction/CFAWait.m; sourceTree = SOURCE_ROOT; };
+		84D5D1561914536400022517 /* NSBezierPath+CFABezierPathQuartzAssistant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSBezierPath+CFABezierPathQuartzAssistant.h"; path = "CFAAction/NSBezierPath+CFABezierPathQuartzAssistant.h"; sourceTree = SOURCE_ROOT; };
+		84D5D1571914536400022517 /* NSBezierPath+CFABezierPathQuartzAssistant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSBezierPath+CFABezierPathQuartzAssistant.m"; path = "CFAAction/NSBezierPath+CFABezierPathQuartzAssistant.m"; sourceTree = SOURCE_ROOT; };
+		84D5D18A1914538400022517 /* CFAAction-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "CFAAction-Info.plist"; path = "CFAAction/CFAAction-Info.plist"; sourceTree = SOURCE_ROOT; };
+		84D5D18B1914538400022517 /* CFAAction-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "CFAAction-Prefix.pch"; path = "CFAAction/CFAAction-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		84D5D18F1914538C00022517 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = CFAAction/en.lproj/InfoPlist.strings; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -271,26 +270,10 @@
 		8421856D1811C59F0092E0A6 /* AppKit Additions */ = {
 			isa = PBXGroup;
 			children = (
-				842185691811C2350092E0A6 /* NSBezierPath+CFABezierPathQuartzAssistant.h */,
-				8421856A1811C2350092E0A6 /* NSBezierPath+CFABezierPathQuartzAssistant.m */,
+				84D5D1561914536400022517 /* NSBezierPath+CFABezierPathQuartzAssistant.h */,
+				84D5D1571914536400022517 /* NSBezierPath+CFABezierPathQuartzAssistant.m */,
 			);
 			name = "AppKit Additions";
-			sourceTree = "<group>";
-		};
-		842185751811C6A40092E0A6 /* CFAAction-iOS */ = {
-			isa = PBXGroup;
-			children = (
-				842185761811C6A40092E0A6 /* Supporting Files */,
-			);
-			path = "CFAAction-iOS";
-			sourceTree = "<group>";
-		};
-		842185761811C6A40092E0A6 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				842185771811C6A40092E0A6 /* CFAAction-iOS-Prefix.pch */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		843FD484180F38B6002CDEA7 = {
@@ -298,7 +281,6 @@
 			children = (
 				843FD497180F38B6002CDEA7 /* CFAAction */,
 				843FD4AC180F38B7002CDEA7 /* CFAActionTests */,
-				842185751811C6A40092E0A6 /* CFAAction-iOS */,
 				843FD490180F38B6002CDEA7 /* Frameworks */,
 				843FD48F180F38B6002CDEA7 /* Products */,
 			);
@@ -341,37 +323,37 @@
 		843FD497180F38B6002CDEA7 /* CFAAction */ = {
 			isa = PBXGroup;
 			children = (
-				843FD49E180F38B6002CDEA7 /* CFAAction.h */,
-				843FD49F180F38B6002CDEA7 /* CFAAction.m */,
-				843FD4CD180F54CA002CDEA7 /* CFAAction+Private.h */,
-				843FD4C5180F3B27002CDEA7 /* CFAMove.h */,
-				843FD4C6180F3B27002CDEA7 /* CFAMove.m */,
-				843FD4D7180F7169002CDEA7 /* CFARotate.h */,
-				843FD4D8180F7169002CDEA7 /* CFARotate.m */,
-				84BB8B12181076E800A5FCA7 /* CFAResize.h */,
-				84BB8B13181076E800A5FCA7 /* CFAResize.m */,
-				843FD4CF180F6BEF002CDEA7 /* CFASequence.h */,
-				843FD4D0180F6BEF002CDEA7 /* CFASequence.m */,
-				843FD4D3180F6F7D002CDEA7 /* CFAGroup.h */,
-				843FD4D4180F6F7D002CDEA7 /* CFAGroup.m */,
-				84BB8B1618107A3500A5FCA7 /* CFARepeat.h */,
-				84BB8B1718107A3500A5FCA7 /* CFARepeat.m */,
-				84BB8B0E180F88FD00A5FCA7 /* CFAScale.h */,
-				84BB8B0F180F88FD00A5FCA7 /* CFAScale.m */,
-				84BB8B1A18107BD600A5FCA7 /* CFAFade.h */,
-				84BB8B1B18107BD600A5FCA7 /* CFAFade.m */,
-				84BB8B1E18107E3300A5FCA7 /* CFAFollowPath.h */,
-				84BB8B1F18107E3300A5FCA7 /* CFAFollowPath.m */,
-				84BB8B22181080A800A5FCA7 /* CFASpeed.h */,
-				84BB8B23181080A800A5FCA7 /* CFASpeed.m */,
-				84BB8B261810826B00A5FCA7 /* CFAWait.h */,
-				84BB8B271810826B00A5FCA7 /* CFAWait.m */,
-				843FD4C9180F52C9002CDEA7 /* CFARunBlock.h */,
-				843FD4CA180F52C9002CDEA7 /* CFARunBlock.m */,
-				84BB8B2A1810841300A5FCA7 /* CFAPerformSelector.h */,
-				84BB8B2B1810841300A5FCA7 /* CFAPerformSelector.m */,
-				84BB8B2E181085B000A5FCA7 /* CFACustomAction.h */,
-				84BB8B2F181085B000A5FCA7 /* CFACustomAction.m */,
+				84D5D1371914536400022517 /* CFAAction.h */,
+				84D5D1381914536400022517 /* CFAAction.m */,
+				84D5D1391914536400022517 /* CFAAction+Private.h */,
+				84D5D13A1914536400022517 /* CFACustomAction.h */,
+				84D5D13B1914536400022517 /* CFACustomAction.m */,
+				84D5D13C1914536400022517 /* CFAFade.h */,
+				84D5D13D1914536400022517 /* CFAFade.m */,
+				84D5D13E1914536400022517 /* CFAFollowPath.h */,
+				84D5D13F1914536400022517 /* CFAFollowPath.m */,
+				84D5D1401914536400022517 /* CFAGroup.h */,
+				84D5D1411914536400022517 /* CFAGroup.m */,
+				84D5D1421914536400022517 /* CFAMove.h */,
+				84D5D1431914536400022517 /* CFAMove.m */,
+				84D5D1441914536400022517 /* CFAPerformSelector.h */,
+				84D5D1451914536400022517 /* CFAPerformSelector.m */,
+				84D5D1461914536400022517 /* CFARepeat.h */,
+				84D5D1471914536400022517 /* CFARepeat.m */,
+				84D5D1481914536400022517 /* CFAResize.h */,
+				84D5D1491914536400022517 /* CFAResize.m */,
+				84D5D14A1914536400022517 /* CFARotate.h */,
+				84D5D14B1914536400022517 /* CFARotate.m */,
+				84D5D14C1914536400022517 /* CFARunBlock.h */,
+				84D5D14D1914536400022517 /* CFARunBlock.m */,
+				84D5D14E1914536400022517 /* CFAScale.h */,
+				84D5D14F1914536400022517 /* CFAScale.m */,
+				84D5D1501914536400022517 /* CFASequence.h */,
+				84D5D1511914536400022517 /* CFASequence.m */,
+				84D5D1521914536400022517 /* CFASpeed.h */,
+				84D5D1531914536400022517 /* CFASpeed.m */,
+				84D5D1541914536400022517 /* CFAWait.h */,
+				84D5D1551914536400022517 /* CFAWait.m */,
 				8421856D1811C59F0092E0A6 /* AppKit Additions */,
 				843FD498180F38B6002CDEA7 /* Supporting Files */,
 			);
@@ -382,9 +364,9 @@
 		843FD498180F38B6002CDEA7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				843FD499180F38B6002CDEA7 /* CFAAction-Info.plist */,
-				843FD49A180F38B6002CDEA7 /* InfoPlist.strings */,
-				843FD49D180F38B6002CDEA7 /* CFAAction-Prefix.pch */,
+				84D5D18B1914538400022517 /* CFAAction-Prefix.pch */,
+				84D5D18A1914538400022517 /* CFAAction-Info.plist */,
+				84D5D18E1914538C00022517 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -392,11 +374,12 @@
 		843FD4AC180F38B7002CDEA7 /* CFAActionTests */ = {
 			isa = PBXGroup;
 			children = (
-				84BB8B641810892B00A5FCA7 /* CFAActionSpec.m */,
-				84EF5BD319084A9F007867A7 /* CFAPerformSelectorSpec.m */,
-				84EF5BD519084AA6007867A7 /* CFARunBlockSpec.m */,
-				84EF5BCC190848CD007867A7 /* CFATestLayer.h */,
-				84EF5BCD190848CD007867A7 /* CFATestLayer.m */,
+				84D5D1241914524500022517 /* CFAActionSpec.m */,
+				84D5D1251914524500022517 /* CFAPerformSelectorSpec.m */,
+				84D5D1261914524500022517 /* CFARunBlockSpec.m */,
+				84D5D1341914530100022517 /* CFATestLayer.h */,
+				84D5D1351914530100022517 /* CFATestLayer.m */,
+				84D5D1331914525F00022517 /* External */,
 				843FD4AD180F38B7002CDEA7 /* Supporting Files */,
 			);
 			name = CFAActionTests;
@@ -406,11 +389,9 @@
 		843FD4AD180F38B7002CDEA7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				84BB8B621810889B00A5FCA7 /* CFAActionTests-Prefix.pch */,
-				84BB8B531810886200A5FCA7 /* Specta.xcodeproj */,
-				84BB8B321810885400A5FCA7 /* Expecta.xcodeproj */,
-				843FD4AE180F38B7002CDEA7 /* CFAActionTests-Info.plist */,
-				843FD4AF180F38B7002CDEA7 /* InfoPlist.strings */,
+				84D5D12E1914525000022517 /* CFAActionTests-Prefix.pch */,
+				84D5D12D1914525000022517 /* CFAActionTests-Info.plist */,
+				84D5D1301914525500022517 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -438,6 +419,15 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		84D5D1331914525F00022517 /* External */ = {
+			isa = PBXGroup;
+			children = (
+				84BB8B531810886200A5FCA7 /* Specta.xcodeproj */,
+				84BB8B321810885400A5FCA7 /* Expecta.xcodeproj */,
+			);
+			name = External;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -445,24 +435,24 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84BB8B67181089BF00A5FCA7 /* CFAAction.h in Headers */,
-				84BB8B24181080A800A5FCA7 /* CFASpeed.h in Headers */,
-				843FD4C7180F3B27002CDEA7 /* CFAMove.h in Headers */,
-				843FD4CB180F52C9002CDEA7 /* CFARunBlock.h in Headers */,
-				843FD4D5180F6F7D002CDEA7 /* CFAGroup.h in Headers */,
-				843FD4D1180F6BEF002CDEA7 /* CFASequence.h in Headers */,
-				843FD4D9180F7169002CDEA7 /* CFARotate.h in Headers */,
-				8421856B1811C2350092E0A6 /* NSBezierPath+CFABezierPathQuartzAssistant.h in Headers */,
-				84BB8B1C18107BD600A5FCA7 /* CFAFade.h in Headers */,
-				84BB8B2018107E3300A5FCA7 /* CFAFollowPath.h in Headers */,
-				84BB8B1818107A3500A5FCA7 /* CFARepeat.h in Headers */,
-				84BB8B2C1810841300A5FCA7 /* CFAPerformSelector.h in Headers */,
-				84BB8B281810826B00A5FCA7 /* CFAWait.h in Headers */,
-				84EF5BCE190848CD007867A7 /* CFATestLayer.h in Headers */,
-				84BB8B10180F88FD00A5FCA7 /* CFAScale.h in Headers */,
-				84BB8B14181076E800A5FCA7 /* CFAResize.h in Headers */,
-				84BB8B30181085B000A5FCA7 /* CFACustomAction.h in Headers */,
-				843FD4CE180F54CA002CDEA7 /* CFAAction+Private.h in Headers */,
+				84D5D1681914536400022517 /* CFAMove.h in Headers */,
+				84D5D17D1914536400022517 /* CFASequence.h in Headers */,
+				84D5D1771914536400022517 /* CFARunBlock.h in Headers */,
+				84D5D1741914536400022517 /* CFARotate.h in Headers */,
+				84D5D1581914536400022517 /* CFAAction.h in Headers */,
+				84D5D16B1914536400022517 /* CFAPerformSelector.h in Headers */,
+				84D5D15F1914536400022517 /* CFAFade.h in Headers */,
+				84D5D1831914536400022517 /* CFAWait.h in Headers */,
+				84D5D1621914536400022517 /* CFAFollowPath.h in Headers */,
+				84D5D1711914536400022517 /* CFAResize.h in Headers */,
+				84D5D15C1914536400022517 /* CFACustomAction.h in Headers */,
+				84D5D1801914536400022517 /* CFASpeed.h in Headers */,
+				84D5D17A1914536400022517 /* CFAScale.h in Headers */,
+				84D5D1861914536400022517 /* NSBezierPath+CFABezierPathQuartzAssistant.h in Headers */,
+				84D5D15B1914536400022517 /* CFAAction+Private.h in Headers */,
+				84D5D16E1914536400022517 /* CFARepeat.h in Headers */,
+				84D5D18D1914538400022517 /* CFAAction-Prefix.pch in Headers */,
+				84D5D1651914536400022517 /* CFAGroup.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -640,7 +630,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				843FD49C180F38B6002CDEA7 /* InfoPlist.strings in Resources */,
+				84D5D1901914538C00022517 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -648,7 +638,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				843FD4B1180F38B7002CDEA7 /* InfoPlist.strings in Resources */,
+				84D5D1321914525500022517 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -659,21 +649,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				842185961811C6CB0092E0A6 /* CFAAction.m in Sources */,
-				842185971811C6CB0092E0A6 /* CFAMove.m in Sources */,
-				842185981811C6CB0092E0A6 /* CFARotate.m in Sources */,
-				842185991811C6CB0092E0A6 /* CFAResize.m in Sources */,
-				8421859A1811C6CB0092E0A6 /* CFASequence.m in Sources */,
-				8421859B1811C6CB0092E0A6 /* CFAGroup.m in Sources */,
-				8421859C1811C6CB0092E0A6 /* CFARepeat.m in Sources */,
-				8421859D1811C6CB0092E0A6 /* CFAScale.m in Sources */,
-				8421859E1811C6CB0092E0A6 /* CFAFade.m in Sources */,
-				8421859F1811C6CB0092E0A6 /* CFAFollowPath.m in Sources */,
-				842185A01811C6CB0092E0A6 /* CFASpeed.m in Sources */,
-				842185A11811C6CB0092E0A6 /* CFAWait.m in Sources */,
-				842185A21811C6CB0092E0A6 /* CFARunBlock.m in Sources */,
-				842185A31811C6CB0092E0A6 /* CFAPerformSelector.m in Sources */,
-				842185A41811C6CB0092E0A6 /* CFACustomAction.m in Sources */,
+				84D5D1821914536400022517 /* CFASpeed.m in Sources */,
+				84D5D1731914536400022517 /* CFAResize.m in Sources */,
+				84D5D1851914536400022517 /* CFAWait.m in Sources */,
+				84D5D1761914536400022517 /* CFARotate.m in Sources */,
+				84D5D1641914536400022517 /* CFAFollowPath.m in Sources */,
+				84D5D1701914536400022517 /* CFARepeat.m in Sources */,
+				84D5D15A1914536400022517 /* CFAAction.m in Sources */,
+				84D5D1671914536400022517 /* CFAGroup.m in Sources */,
+				84D5D1791914536400022517 /* CFARunBlock.m in Sources */,
+				84D5D16D1914536400022517 /* CFAPerformSelector.m in Sources */,
+				84D5D15E1914536400022517 /* CFACustomAction.m in Sources */,
+				84D5D1611914536400022517 /* CFAFade.m in Sources */,
+				84D5D17F1914536400022517 /* CFASequence.m in Sources */,
+				84D5D16A1914536400022517 /* CFAMove.m in Sources */,
+				84D5D17C1914536400022517 /* CFAScale.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -681,22 +671,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				843FD4CC180F52C9002CDEA7 /* CFARunBlock.m in Sources */,
-				84BB8B25181080A800A5FCA7 /* CFASpeed.m in Sources */,
-				84BB8B1918107A3500A5FCA7 /* CFARepeat.m in Sources */,
-				84BB8B31181085B000A5FCA7 /* CFACustomAction.m in Sources */,
-				843FD4A0180F38B6002CDEA7 /* CFAAction.m in Sources */,
-				84BB8B11180F88FD00A5FCA7 /* CFAScale.m in Sources */,
-				84BB8B1D18107BD600A5FCA7 /* CFAFade.m in Sources */,
-				84FE97311810AA24001BCD56 /* CFAGroup.m in Sources */,
-				843FD4C8180F3B27002CDEA7 /* CFAMove.m in Sources */,
-				8421856C1811C2350092E0A6 /* NSBezierPath+CFABezierPathQuartzAssistant.m in Sources */,
-				843FD4D2180F6BEF002CDEA7 /* CFASequence.m in Sources */,
-				84BB8B2118107E3300A5FCA7 /* CFAFollowPath.m in Sources */,
-				84BB8B2D1810841300A5FCA7 /* CFAPerformSelector.m in Sources */,
-				84BB8B291810826B00A5FCA7 /* CFAWait.m in Sources */,
-				843FD4DA180F7169002CDEA7 /* CFARotate.m in Sources */,
-				84BB8B15181076E800A5FCA7 /* CFAResize.m in Sources */,
+				84D5D17B1914536400022517 /* CFAScale.m in Sources */,
+				84D5D1871914536400022517 /* NSBezierPath+CFABezierPathQuartzAssistant.m in Sources */,
+				84D5D17E1914536400022517 /* CFASequence.m in Sources */,
+				84D5D1811914536400022517 /* CFASpeed.m in Sources */,
+				84D5D1841914536400022517 /* CFAWait.m in Sources */,
+				84D5D16F1914536400022517 /* CFARepeat.m in Sources */,
+				84D5D1631914536400022517 /* CFAFollowPath.m in Sources */,
+				84D5D1691914536400022517 /* CFAMove.m in Sources */,
+				84D5D1591914536400022517 /* CFAAction.m in Sources */,
+				84D5D1751914536400022517 /* CFARotate.m in Sources */,
+				84D5D15D1914536400022517 /* CFACustomAction.m in Sources */,
+				84D5D1781914536400022517 /* CFARunBlock.m in Sources */,
+				84D5D1601914536400022517 /* CFAFade.m in Sources */,
+				84D5D16C1914536400022517 /* CFAPerformSelector.m in Sources */,
+				84D5D1661914536400022517 /* CFAGroup.m in Sources */,
+				84D5D1721914536400022517 /* CFAResize.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -704,10 +694,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84EF5BD619084AA6007867A7 /* CFARunBlockSpec.m in Sources */,
-				84EF5BD419084A9F007867A7 /* CFAPerformSelectorSpec.m in Sources */,
-				84BB8B7218108D1100A5FCA7 /* CFAActionSpec.m in Sources */,
-				84EF5BD01908491B007867A7 /* CFATestLayer.m in Sources */,
+				84D5D1361914530100022517 /* CFATestLayer.m in Sources */,
+				84D5D12A1914524500022517 /* CFAPerformSelectorSpec.m in Sources */,
+				84D5D1291914524500022517 /* CFAActionSpec.m in Sources */,
+				84D5D12B1914524500022517 /* CFARunBlockSpec.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -732,18 +722,18 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		843FD49A180F38B6002CDEA7 /* InfoPlist.strings */ = {
+		84D5D1301914525500022517 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				843FD49B180F38B6002CDEA7 /* en */,
+				84D5D1311914525500022517 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		843FD4AF180F38B7002CDEA7 /* InfoPlist.strings */ = {
+		84D5D18E1914538C00022517 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				843FD4B0180F38B7002CDEA7 /* en */,
+				84D5D18F1914538C00022517 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -757,7 +747,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				DSTROOT = /tmp/CFAAction_iOS.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "CFAAction-iOS/CFAAction-iOS-Prefix.pch";
+				GCC_PREFIX_HEADER = "CFAAction/CFAAction-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -776,7 +766,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				DSTROOT = /tmp/CFAAction_iOS.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "CFAAction-iOS/CFAAction-iOS-Prefix.pch";
+				GCC_PREFIX_HEADER = "CFAAction/CFAAction-Prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -862,8 +852,8 @@
 				DYLIB_CURRENT_VERSION = 1;
 				FRAMEWORK_VERSION = A;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "CFCAAction/CFAAction-Prefix.pch";
-				INFOPLIST_FILE = "CFCAAction/CFAAction-Info.plist";
+				GCC_PREFIX_HEADER = "CFAAction/CFAAction-Prefix.pch";
+				INFOPLIST_FILE = "CFAAction/CFAAction-Info.plist";
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				PRODUCT_NAME = CFAAction;
 				WRAPPER_EXTENSION = framework;
@@ -878,8 +868,8 @@
 				DYLIB_CURRENT_VERSION = 1;
 				FRAMEWORK_VERSION = A;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "CFCAAction/CFAAction-Prefix.pch";
-				INFOPLIST_FILE = "CFCAAction/CFAAction-Info.plist";
+				GCC_PREFIX_HEADER = "CFAAction/CFAAction-Prefix.pch";
+				INFOPLIST_FILE = "CFAAction/CFAAction-Info.plist";
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				PRODUCT_NAME = CFAAction;
 				WRAPPER_EXTENSION = framework;
@@ -896,7 +886,7 @@
 					"$(inherited)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "CFCAActionTests/CFAActionTests-Prefix.pch";
+				GCC_PREFIX_HEADER = "CFAActionTests/CFAActionTests-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -907,7 +897,7 @@
 					"\"$(SRCROOT)/External/Expecta/src\"/**",
 					"\"$(SRCROOT)/External/Specta/src\"/**",
 				);
-				INFOPLIST_FILE = "CFCAActionTests/CFAActionTests-Info.plist";
+				INFOPLIST_FILE = "CFAActionTests/CFAActionTests-Info.plist";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -929,14 +919,14 @@
 					"$(inherited)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "CFCAActionTests/CFAActionTests-Prefix.pch";
+				GCC_PREFIX_HEADER = "CFAActionTests/CFAActionTests-Prefix.pch";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					"\"$(SRCROOT)/External/Expecta/src\"/**",
 					"\"$(SRCROOT)/External/Specta/src\"/**",
 				);
-				INFOPLIST_FILE = "CFCAActionTests/CFAActionTests-Info.plist";
+				INFOPLIST_FILE = "CFAActionTests/CFAActionTests-Info.plist";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
