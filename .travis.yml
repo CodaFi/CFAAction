@@ -6,6 +6,7 @@ before_install:
 
 script:
 - xctool -project CFAAction.xcodeproj -scheme CFAAction -sdk macosx ONLY_ACTIVE_ARCH=NO clean build test
+- xctool -project CFAAction.xcodeproj -scheme CFAAction-iOS -sdk iphonesimulator7.1 ONLY_ACTIVE_ARCH=NO build
 
 
 
