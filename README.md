@@ -1,4 +1,7 @@
 ## CFAAction ##
+
+[![Build Status](https://travis-ci.org/CodaFi/CFAAction.svg?branch=master)](https://travis-ci.org/CodaFi/CFAAction)
+
 `CFAAction` is a wrapper around several common Core Animation animations that provides additional modularity and the ability to group and sequence actions.
 
 ## Getting Started
