@@ -12,6 +12,7 @@
 		843FD4A8180F38B7002CDEA7 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 843FD491180F38B6002CDEA7 /* Cocoa.framework */; };
 		843FD4AB180F38B7002CDEA7 /* CFAAction.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 843FD48E180F38B6002CDEA7 /* CFAAction.framework */; };
 		843FD4DC180F7EFF002CDEA7 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 843FD4DB180F7EFF002CDEA7 /* QuartzCore.framework */; };
+		844F20B2196A1373005CF275 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 844F20B1196A1373005CF275 /* XCTest.framework */; };
 		84BB8B6D181089FA00A5FCA7 /* libExpecta.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 84BB8B3B1810885400A5FCA7 /* libExpecta.a */; };
 		84BB8B7118108A5700A5FCA7 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 843FD4DB180F7EFF002CDEA7 /* QuartzCore.framework */; };
 		84D5D1291914524500022517 /* CFAActionSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D5D1241914524500022517 /* CFAActionSpec.m */; };
@@ -19,7 +20,7 @@
 		84D5D12B1914524500022517 /* CFARunBlockSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D5D1261914524500022517 /* CFARunBlockSpec.m */; };
 		84D5D1321914525500022517 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84D5D1301914525500022517 /* InfoPlist.strings */; };
 		84D5D1361914530100022517 /* CFATestLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D5D1351914530100022517 /* CFATestLayer.m */; };
-		84D5D1581914536400022517 /* CFAAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 84D5D1371914536400022517 /* CFAAction.h */; };
+		84D5D1581914536400022517 /* CFAAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 84D5D1371914536400022517 /* CFAAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		84D5D1591914536400022517 /* CFAAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D5D1381914536400022517 /* CFAAction.m */; };
 		84D5D15A1914536400022517 /* CFAAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D5D1381914536400022517 /* CFAAction.m */; };
 		84D5D15B1914536400022517 /* CFAAction+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 84D5D1391914536400022517 /* CFAAction+Private.h */; };
@@ -69,7 +70,6 @@
 		84D5D1871914536400022517 /* NSBezierPath+CFABezierPathQuartzAssistant.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D5D1571914536400022517 /* NSBezierPath+CFABezierPathQuartzAssistant.m */; };
 		84D5D18D1914538400022517 /* CFAAction-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 84D5D18B1914538400022517 /* CFAAction-Prefix.pch */; };
 		84D5D1901914538C00022517 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84D5D18E1914538C00022517 /* InfoPlist.strings */; };
-		84EF5BCA1908478A007867A7 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 843FD4A6180F38B7002CDEA7 /* XCTest.framework */; };
 		84EF5BCB19084821007867A7 /* libSpecta-OSX.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 84EF5BC11908475C007867A7 /* libSpecta-OSX.a */; };
 /* End PBXBuildFile section */
 
@@ -182,8 +182,8 @@
 		843FD495180F38B6002CDEA7 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		843FD496180F38B6002CDEA7 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		843FD4A5180F38B7002CDEA7 /* CFAActionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CFAActionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		843FD4A6180F38B7002CDEA7 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		843FD4DB180F7EFF002CDEA7 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		844F20B1196A1373005CF275 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		84BB8B321810885400A5FCA7 /* Expecta.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Expecta.xcodeproj; path = External/Expecta/Expecta.xcodeproj; sourceTree = SOURCE_ROOT; };
 		84BB8B531810886200A5FCA7 /* Specta.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Specta.xcodeproj; path = External/Specta/Specta.xcodeproj; sourceTree = SOURCE_ROOT; };
 		84BB8B6F181089FA00A5FCA7 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
@@ -231,6 +231,7 @@
 		84D5D18A1914538400022517 /* CFAAction-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "CFAAction-Info.plist"; path = "CFAAction/CFAAction-Info.plist"; sourceTree = SOURCE_ROOT; };
 		84D5D18B1914538400022517 /* CFAAction-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "CFAAction-Prefix.pch"; path = "CFAAction/CFAAction-Prefix.pch"; sourceTree = SOURCE_ROOT; };
 		84D5D18F1914538C00022517 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = CFAAction/en.lproj/InfoPlist.strings; sourceTree = SOURCE_ROOT; };
+		84F50B8F19172C8D00715BC7 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -255,8 +256,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				844F20B2196A1373005CF275 /* XCTest.framework in Frameworks */,
 				84EF5BCB19084821007867A7 /* libSpecta-OSX.a in Frameworks */,
-				84EF5BCA1908478A007867A7 /* XCTest.framework in Frameworks */,
 				84BB8B7118108A5700A5FCA7 /* QuartzCore.framework in Frameworks */,
 				84BB8B6D181089FA00A5FCA7 /* libExpecta.a in Frameworks */,
 				843FD4A8180F38B7002CDEA7 /* Cocoa.framework in Frameworks */,
@@ -299,10 +300,11 @@
 		843FD490180F38B6002CDEA7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				844F20B1196A1373005CF275 /* XCTest.framework */,
+				84F50B8F19172C8D00715BC7 /* AVFoundation.framework */,
 				84BB8B6F181089FA00A5FCA7 /* SenTestingKit.framework */,
 				843FD4DB180F7EFF002CDEA7 /* QuartzCore.framework */,
 				843FD491180F38B6002CDEA7 /* Cocoa.framework */,
-				843FD4A6180F38B7002CDEA7 /* XCTest.framework */,
 				842185731811C6A40092E0A6 /* Foundation.framework */,
 				842185831811C6A50092E0A6 /* UIKit.framework */,
 				843FD493180F38B6002CDEA7 /* Other Frameworks */,
@@ -904,6 +906,7 @@
 					"-all_load",
 				);
 				PRODUCT_NAME = CFAActionTests;
+				SDKROOT = macosx;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -933,6 +936,7 @@
 					"-all_load",
 				);
 				PRODUCT_NAME = CFAActionTests;
+				SDKROOT = macosx;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
