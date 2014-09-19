@@ -52,4 +52,4 @@ To perform a block or selector as an action, use `[CFAAnimation runBlock:]`, `[C
 `CFAAction` is licensed under the [MIT](http://opensource.org/licenses/MIT) license. See [LICENSE.md](LICENSE.md).
 
 ## Contact ##
-Follow me on Twitter [@CodaFi_](https://twitter.com/CodaFi_), or visit [my website](http://codafi.me/).
+Follow me on Twitter [@CodaFi_](https://twitter.com/CodaFi_), or visit [my website](http://λπω.com/).
