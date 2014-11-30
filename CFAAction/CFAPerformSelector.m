@@ -27,7 +27,8 @@
 - (void)executeWithTarget:(CALayer *)target forTime:(NSTimeInterval)time {
 	if (!self.finished) {
 		if ((_target != nil) && (_selector != NULL)) {
-			objc_msgSend(_target, _selector);
+			void(*cfa_msgSend)(id self, SEL _cmd) = (void *)objc_msgSend;
+			cfa_msgSend(_target, _selector);
 		}
 		self.finished = YES;
 	}
