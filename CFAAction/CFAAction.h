@@ -157,6 +157,13 @@ typedef NS_ENUM(NSInteger, CFAActionTimingMode) {
 /// Creates an action that changes the y scale value of a node to a new value.
 + (CFAAction *)scaleYTo:(CGFloat)scale duration:(NSTimeInterval)sec;
 
+#pragma mark - Show or Hide Actions
+
+/// Creates an action that hides a node.
++ (CFAAction *)hide;
+
+/// Creates an action that unhides a node.
++ (CFAAction *)unhide;
 
 #pragma mark - Combine Actions
 

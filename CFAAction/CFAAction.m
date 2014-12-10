@@ -11,6 +11,7 @@
 #import "CFARunBlock.h"
 #import "CFASequence.h"
 #import "CFAGroup.h"
+#import "CFAHide.h"
 #import "CFACustomAction.h"
 #import "CFAFade.h"
 #import "CFAFollowPath.h"
@@ -142,6 +143,14 @@ static NSString * CFAMediaTimingFunctionName[4] = {
 
 + (CFAAction *)scaleYTo:(CGFloat)scale duration:(NSTimeInterval)sec {
 	return [CFAScale scaleYTo:scale duration:sec];
+}
+
++ (CFAAction *)hide {
+	return [CFAHide hide];
+}
+
++ (CFAAction *)unhide {
+	return [CFAHide unhide];
 }
 
 + (CFAAction *)sequence:(NSArray *)actions {

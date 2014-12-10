@@ -12,6 +12,9 @@
 		843FD4A8180F38B7002CDEA7 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 843FD491180F38B6002CDEA7 /* Cocoa.framework */; };
 		843FD4AB180F38B7002CDEA7 /* CFAAction.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 843FD48E180F38B6002CDEA7 /* CFAAction.framework */; };
 		843FD4DC180F7EFF002CDEA7 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 843FD4DB180F7EFF002CDEA7 /* QuartzCore.framework */; };
+		8447D27F1A37DDAE00FD41F8 /* CFAHide.h in Headers */ = {isa = PBXBuildFile; fileRef = 8447D27D1A37DDAE00FD41F8 /* CFAHide.h */; };
+		8447D2801A37DDAE00FD41F8 /* CFAHide.m in Sources */ = {isa = PBXBuildFile; fileRef = 8447D27E1A37DDAE00FD41F8 /* CFAHide.m */; };
+		8447D2811A37DDAE00FD41F8 /* CFAHide.m in Sources */ = {isa = PBXBuildFile; fileRef = 8447D27E1A37DDAE00FD41F8 /* CFAHide.m */; };
 		844F20B2196A1373005CF275 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 844F20B1196A1373005CF275 /* XCTest.framework */; };
 		84BB8B6D181089FA00A5FCA7 /* libExpecta.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 84BB8B3B1810885400A5FCA7 /* libExpecta.a */; };
 		84BB8B7118108A5700A5FCA7 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 843FD4DB180F7EFF002CDEA7 /* QuartzCore.framework */; };
@@ -197,6 +200,8 @@
 		843FD496180F38B6002CDEA7 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		843FD4A5180F38B7002CDEA7 /* CFAActionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CFAActionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		843FD4DB180F7EFF002CDEA7 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		8447D27D1A37DDAE00FD41F8 /* CFAHide.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CFAHide.h; path = CFAAction/CFAHide.h; sourceTree = SOURCE_ROOT; };
+		8447D27E1A37DDAE00FD41F8 /* CFAHide.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CFAHide.m; path = CFAAction/CFAHide.m; sourceTree = SOURCE_ROOT; };
 		844F20B1196A1373005CF275 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		84BB8B321810885400A5FCA7 /* Expecta.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Expecta.xcodeproj; path = External/Expecta/Expecta.xcodeproj; sourceTree = SOURCE_ROOT; };
 		84BB8B6F181089FA00A5FCA7 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
@@ -350,6 +355,8 @@
 				84D5D13F1914536400022517 /* CFAFollowPath.m */,
 				84D5D1401914536400022517 /* CFAGroup.h */,
 				84D5D1411914536400022517 /* CFAGroup.m */,
+				8447D27D1A37DDAE00FD41F8 /* CFAHide.h */,
+				8447D27E1A37DDAE00FD41F8 /* CFAHide.m */,
 				84D5D1421914536400022517 /* CFAMove.h */,
 				84D5D1431914536400022517 /* CFAMove.m */,
 				84D5D1441914536400022517 /* CFAPerformSelector.h */,
@@ -469,6 +476,7 @@
 				84D5D1861914536400022517 /* NSBezierPath+CFABezierPathQuartzAssistant.h in Headers */,
 				84D5D15B1914536400022517 /* CFAAction+Private.h in Headers */,
 				84D5D16E1914536400022517 /* CFARepeat.h in Headers */,
+				8447D27F1A37DDAE00FD41F8 /* CFAHide.h in Headers */,
 				84D5D18D1914538400022517 /* CFAAction-Prefix.pch in Headers */,
 				84D5D1651914536400022517 /* CFAGroup.h in Headers */,
 			);
@@ -689,6 +697,7 @@
 				84D5D1701914536400022517 /* CFARepeat.m in Sources */,
 				84D5D15A1914536400022517 /* CFAAction.m in Sources */,
 				84D5D1671914536400022517 /* CFAGroup.m in Sources */,
+				8447D2811A37DDAE00FD41F8 /* CFAHide.m in Sources */,
 				84D5D1791914536400022517 /* CFARunBlock.m in Sources */,
 				84D5D16D1914536400022517 /* CFAPerformSelector.m in Sources */,
 				84D5D15E1914536400022517 /* CFACustomAction.m in Sources */,
@@ -718,6 +727,7 @@
 				84D5D1601914536400022517 /* CFAFade.m in Sources */,
 				84D5D16C1914536400022517 /* CFAPerformSelector.m in Sources */,
 				84D5D1661914536400022517 /* CFAGroup.m in Sources */,
+				8447D2801A37DDAE00FD41F8 /* CFAHide.m in Sources */,
 				84D5D1721914536400022517 /* CFAResize.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -879,15 +889,19 @@
 		843FD4B7180F38B7002CDEA7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				FRAMEWORK_VERSION = A;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CFAAction/CFAAction-Prefix.pch";
 				INFOPLIST_FILE = "CFAAction/CFAAction-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				PRODUCT_NAME = CFAAction;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				WRAPPER_EXTENSION = framework;
 			};
 			name = Debug;
@@ -895,13 +909,16 @@
 		843FD4B8180F38B7002CDEA7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				FRAMEWORK_VERSION = A;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CFAAction/CFAAction-Prefix.pch";
 				INFOPLIST_FILE = "CFAAction/CFAAction-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				PRODUCT_NAME = CFAAction;
 				WRAPPER_EXTENSION = framework;
