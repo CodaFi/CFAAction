@@ -77,6 +77,27 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		82A992841BB4CB220040B572 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84BB8B321810885400A5FCA7 /* Expecta.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 908379791A8B972C009844DA;
+			remoteInfo = Expecta;
+		};
+		82A992861BB4CB220040B572 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84BB8B321810885400A5FCA7 /* Expecta.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 908379111A8B9660009844DA;
+			remoteInfo = "Expecta-iOS";
+		};
+		82A992881BB4CB220040B572 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84BB8B321810885400A5FCA7 /* Expecta.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3A0A59BF1AD441CB003DA3E4;
+			remoteInfo = "Expecta-iOSTests";
+		};
 		843FD4A9180F38B7002CDEA7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 843FD485180F38B6002CDEA7 /* Project object */;
@@ -422,11 +443,14 @@
 		84BB8B331810885400A5FCA7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
+				82A992851BB4CB220040B572 /* Expecta.framework */,
+				82A992871BB4CB220040B572 /* Expecta.framework */,
+				84BB8B3F1810885400A5FCA7 /* ExpectaTests.octest */,
+				82A992891BB4CB220040B572 /* Expecta-iOSTests.xctest */,
 				84BB8B3B1810885400A5FCA7 /* libExpecta.a */,
 				84BB8B3D1810885400A5FCA7 /* libExpecta-iOS.a */,
-				84BB8B3F1810885400A5FCA7 /* ExpectaTests.octest */,
-				84BB8B411810885400A5FCA7 /* Expecta-iOSTests.octest */,
 				84BB8B431810885400A5FCA7 /* ExpectaTests-XCTest.xctest */,
+				84BB8B411810885400A5FCA7 /* Expecta-iOSTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -548,7 +572,7 @@
 			attributes = {
 				CLASSPREFIX = CFA;
 				LastTestingUpgradeCheck = 0510;
-				LastUpgradeCheck = 0510;
+				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = CodaFi;
 				TargetAttributes = {
 					843FD4A4180F38B7002CDEA7 = {
@@ -586,6 +610,27 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
+		82A992851BB4CB220040B572 /* Expecta.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Expecta.framework;
+			remoteRef = 82A992841BB4CB220040B572 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		82A992871BB4CB220040B572 /* Expecta.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Expecta.framework;
+			remoteRef = 82A992861BB4CB220040B572 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		82A992891BB4CB220040B572 /* Expecta-iOSTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Expecta-iOSTests.xctest";
+			remoteRef = 82A992881BB4CB220040B572 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		84BB8B3B1810885400A5FCA7 /* libExpecta.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
@@ -834,6 +879,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
@@ -900,6 +946,7 @@
 				INFOPLIST_FILE = "CFAAction/CFAAction-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.codafi.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = CFAAction;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				WRAPPER_EXTENSION = framework;
@@ -920,6 +967,7 @@
 				INFOPLIST_FILE = "CFAAction/CFAAction-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.codafi.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = CFAAction;
 				WRAPPER_EXTENSION = framework;
 			};
@@ -942,8 +990,9 @@
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/6.1.0/lib/darwin,
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
-					"\"$(SRCROOT)/External/Expecta/src\"/**",
+					"\"$(SRCROOT)/External/Expecta/Expecta\"/**",
 					"\"$(SRCROOT)/External/Specta/Specta\"/**",
 				);
 				INFOPLIST_FILE = "CFAActionTests/CFAActionTests-Info.plist";
@@ -951,7 +1000,11 @@
 					"$(inherited)",
 					"-ObjC",
 					"-all_load",
+					"-ftest-coverage",
+					"-fprofile-arcs",
+					"-Wall",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.codafi.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = CFAActionTests;
 				SDKROOT = macosx;
 				TEST_HOST = "$(BUNDLE_LOADER)";
@@ -972,8 +1025,9 @@
 				GCC_PREFIX_HEADER = "CFAActionTests/CFAActionTests-Prefix.pch";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/6.1.0/lib/darwin,
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
-					"\"$(SRCROOT)/External/Expecta/src\"/**",
+					"\"$(SRCROOT)/External/Expecta/Expecta\"/**",
 					"\"$(SRCROOT)/External/Specta/Specta\"/**",
 				);
 				INFOPLIST_FILE = "CFAActionTests/CFAActionTests-Info.plist";
@@ -981,7 +1035,11 @@
 					"$(inherited)",
 					"-ObjC",
 					"-all_load",
+					"-ftest-coverage",
+					"-fprofile-arcs",
+					"-Wall",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.codafi.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = CFAActionTests;
 				SDKROOT = macosx;
 				TEST_HOST = "$(BUNDLE_LOADER)";
