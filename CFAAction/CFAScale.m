@@ -125,8 +125,8 @@ typedef NS_ENUM(int, CFScaleSubtype) {
 	scaleY.cumulative = YES;
 	scaleY.timingFunction = self.timingFunction;
 
-	[target addAnimation:scaleX forKey:CFAScaleKeypath];
-	[target addAnimation:scaleY forKey:CFAScaleKeypath];
+	[target addAnimation:scaleX forKey:CFAScaleXKeypath];
+	[target addAnimation:scaleY forKey:CFAScaleYKeypath];
 }
 
 @end
