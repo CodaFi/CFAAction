@@ -8,9 +8,9 @@
 //
 
 #if TARGET_OS_IPHONE
-
 // do we need this?
-
+#if TARGET_IPHONE_SIMULATOR  
+// or this?
 #else
 
 #import <AppKit/NSBezierPath.h>
@@ -19,6 +19,6 @@
 
 - (CGPathRef)quartzPath;
 
-#endif
-
 @end
+
+#endif
