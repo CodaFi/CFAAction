@@ -9,7 +9,7 @@
 
 #if TARGET_OS_IPHONE
 // do we need this?
-#if TARGET_IPHONE_SIMULATOR  
+#elif TARGET_IPHONE_SIMULATOR  
 // or this?
 #else
 
