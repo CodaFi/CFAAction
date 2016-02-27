@@ -218,7 +218,7 @@ typedef NS_ENUM(NSInteger, CFAActionTimingMode) {
 + (CFAAction *)runBlock:(dispatch_block_t)block queue:(dispatch_queue_t)queue;
 
 /// Creates an action that executes a block over a duration.
-+ (CFAAction *)customActionWithDuration:(NSTimeInterval)seconds actionBlock:(void (^)(CALayer *node, CGFloat elapsedTime))block;
++ (CFAAction *)customActionWithDuration:(NSTimeInterval)seconds actionBlock:(void (^)(CALayer *node, double elapsedTime))block;
 
 @end
 

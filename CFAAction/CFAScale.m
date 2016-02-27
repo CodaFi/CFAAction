@@ -67,6 +67,7 @@ typedef NS_ENUM(int, CFScaleSubtype) {
 	copiedAction->x = x;
 	copiedAction->y = y;
 	copiedAction->_subtype = _subtype;
+    copiedAction.duration = self.duration;
 	return copiedAction;
 }
 
@@ -78,6 +79,7 @@ typedef NS_ENUM(int, CFScaleSubtype) {
 	copiedAction->x = -y;
 	copiedAction->y = -x;
 	copiedAction->_subtype = _subtype;
+    copiedAction.duration = self.duration;
 	return copiedAction;
 }
 
@@ -113,6 +115,7 @@ typedef NS_ENUM(int, CFScaleSubtype) {
 	scaleX.toValue = [NSNumber numberWithFloat:newX];
 	scaleX.fillMode = kCAFillModeForwards;
 	scaleX.removedOnCompletion = NO;
+    scaleX.beginTime = time;
 	scaleX.cumulative = YES;
 	scaleX.timingFunction = self.timingFunction;
 
@@ -122,6 +125,7 @@ typedef NS_ENUM(int, CFScaleSubtype) {
 	scaleY.toValue = [NSNumber numberWithFloat:newY];
 	scaleY.fillMode = kCAFillModeForwards;
 	scaleY.removedOnCompletion = NO;
+    scaleY.beginTime = time;
 	scaleY.cumulative = YES;
 	scaleY.timingFunction = self.timingFunction;
 

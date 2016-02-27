@@ -11,6 +11,6 @@
 
 @interface CFACustomAction : CFAAction
 
-+ (CFAAction *)customActionWithDuration:(NSTimeInterval)seconds actionBlock:(void (^)(CALayer *node, CGFloat elapsedTime))block;
++ (CFAAction *)customActionWithDuration:(NSTimeInterval)seconds actionBlock:(void (^)(CALayer *node, double elapsedTime))block;
 
 @end
