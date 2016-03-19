@@ -221,7 +221,7 @@ static NSString * CFAMediaTimingFunctionName[4] = {
 	return [CFARunBlock runBlock:block queue:queue];
 }
 
-+ (CFAAction *)customActionWithDuration:(NSTimeInterval)seconds actionBlock:(void (^)(CALayer *node, double elapsedTime))block {
++ (CFAAction *)customActionWithDuration:(NSTimeInterval)seconds actionBlock:(void (^)(CALayer *node, CGFloat elapsedTime))block {
 	return [CFACustomAction customActionWithDuration:seconds actionBlock:block];
 }
 
