@@ -7,6 +7,12 @@
 //  Released under the MIT license.
 //
 
+#if TARGET_OS_IPHONE
+// do we need this?
+#elif TARGET_IPHONE_SIMULATOR  
+// or this?
+#else
+
 #import <AppKit/NSBezierPath.h>
 
 @interface NSBezierPath (CFABezierPathQuartzAssistant)
@@ -14,3 +20,5 @@
 - (CGPathRef)quartzPath;
 
 @end
+
+#endif
