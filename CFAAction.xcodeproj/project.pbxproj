@@ -365,9 +365,9 @@
 		843FD497180F38B6002CDEA7 /* CFAAction */ = {
 			isa = PBXGroup;
 			children = (
+				84D5D1391914536400022517 /* CFAAction+Private.h */,
 				84D5D1371914536400022517 /* CFAAction.h */,
 				84D5D1381914536400022517 /* CFAAction.m */,
-				84D5D1391914536400022517 /* CFAAction+Private.h */,
 				84D5D13A1914536400022517 /* CFACustomAction.h */,
 				84D5D13B1914536400022517 /* CFACustomAction.m */,
 				84D5D13C1914536400022517 /* CFAFade.h */,
@@ -445,12 +445,12 @@
 			children = (
 				82A992851BB4CB220040B572 /* Expecta.framework */,
 				82A992871BB4CB220040B572 /* Expecta.framework */,
-				84BB8B3F1810885400A5FCA7 /* ExpectaTests.octest */,
+				84BB8B3F1810885400A5FCA7 /* ExpectaTests.xctest */,
 				82A992891BB4CB220040B572 /* Expecta-iOSTests.xctest */,
 				84BB8B3B1810885400A5FCA7 /* libExpecta.a */,
-				84BB8B3D1810885400A5FCA7 /* libExpecta-iOS.a */,
-				84BB8B431810885400A5FCA7 /* ExpectaTests-XCTest.xctest */,
-				84BB8B411810885400A5FCA7 /* Expecta-iOSTests.octest */,
+				84BB8B3D1810885400A5FCA7 /* libExpecta.a */,
+				84BB8B431810885400A5FCA7 /* libExpectaTests.xctest */,
+				84BB8B411810885400A5FCA7 /* libExpecta-iOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -638,31 +638,31 @@
 			remoteRef = 84BB8B3A1810885400A5FCA7 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		84BB8B3D1810885400A5FCA7 /* libExpecta-iOS.a */ = {
+		84BB8B3D1810885400A5FCA7 /* libExpecta.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
-			path = "libExpecta-iOS.a";
+			path = libExpecta.a;
 			remoteRef = 84BB8B3C1810885400A5FCA7 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		84BB8B3F1810885400A5FCA7 /* ExpectaTests.octest */ = {
+		84BB8B3F1810885400A5FCA7 /* ExpectaTests.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
-			path = ExpectaTests.octest;
+			path = ExpectaTests.xctest;
 			remoteRef = 84BB8B3E1810885400A5FCA7 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		84BB8B411810885400A5FCA7 /* Expecta-iOSTests.octest */ = {
+		84BB8B411810885400A5FCA7 /* libExpecta-iOSTests.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
-			path = "Expecta-iOSTests.octest";
+			path = "libExpecta-iOSTests.xctest";
 			remoteRef = 84BB8B401810885400A5FCA7 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		84BB8B431810885400A5FCA7 /* ExpectaTests-XCTest.xctest */ = {
+		84BB8B431810885400A5FCA7 /* libExpectaTests.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
-			path = "ExpectaTests-XCTest.xctest";
+			path = libExpectaTests.xctest;
 			remoteRef = 84BB8B421810885400A5FCA7 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
