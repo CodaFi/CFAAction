@@ -127,12 +127,15 @@ describe(@"Convenience Initializers", ^{
 	
 	it(@"should always dispense a subclass for path following operations", ^{
 		CFAAction *action = nil;
-
-		action = [CFAAction followPath:NULL duration:0];
+		CGMutablePathRef path = CGPathCreateMutable();
+		
+		action = [CFAAction followPath:path duration:0];
 		expect(action.class).notTo.equal(CFAActionClass);
 
-		action = [CFAAction followPath:NULL asOffset:NO orientToPath:NO duration:0];
+		action = [CFAAction followPath:path asOffset:NO orientToPath:NO duration:0];
 		expect(action.class).notTo.equal(CFAActionClass);
+		
+		CGPathRelease(path);
 	});
 	
 	it(@"should always dispense a subclass for fade operations", ^{
@@ -158,16 +161,16 @@ describe(@"Convenience Initializers", ^{
 	it(@"should always dispense a subclass for action operations", ^{
 		CFAAction *action = nil;
 
-		action = [CFAAction performSelector:NULL onTarget:nil];
+		action = [CFAAction performSelector:@selector(description) onTarget:self];
 		expect(action.class).notTo.equal(CFAActionClass);
 
-		action = [CFAAction runBlock:NULL];
+		action = [CFAAction runBlock:^{ }];
 		expect(action.class).notTo.equal(CFAActionClass);
 
-		action = [CFAAction runBlock:NULL queue:NULL];
+		action = [CFAAction runBlock:^{ } queue:dispatch_get_main_queue()];
 		expect(action.class).notTo.equal(CFAActionClass);
 
-		action = [CFAAction customActionWithDuration:0 actionBlock:NULL];
+		action = [CFAAction customActionWithDuration:0 actionBlock:^(CALayer * _Nonnull node, CGFloat elapsedTime) { }];
 		expect(action.class).notTo.equal(CFAActionClass);
 	});
 });

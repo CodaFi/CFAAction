@@ -9,9 +9,13 @@
 
 #import "CFAAction+Private.h"
 
+NS_ASSUME_NONNULL_BEGIN
+
 @interface CFARunBlock : CFAAction
 
 + (CFAAction *)runBlock:(dispatch_block_t)block;
 + (CFAAction *)runBlock:(dispatch_block_t)block queue:(dispatch_queue_t)queue;
 
 @end
+
+NS_ASSUME_NONNULL_END

@@ -9,8 +9,12 @@
 
 #import "CFAAction+Private.h"
 
+NS_ASSUME_NONNULL_BEGIN
+
 @interface CFASequence : CFAAction
 
 + (instancetype)sequenceWithActions:(NSArray *)actions;
 
 @end
+
+NS_ASSUME_NONNULL_END

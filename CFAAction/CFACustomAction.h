@@ -9,8 +9,12 @@
 
 #import "CFAAction+Private.h"
 
+NS_ASSUME_NONNULL_BEGIN
+
 @interface CFACustomAction : CFAAction
 
 + (CFAAction *)customActionWithDuration:(NSTimeInterval)seconds actionBlock:(void (^)(CALayer *node, CGFloat elapsedTime))block;
 
 @end
+
+NS_ASSUME_NONNULL_END

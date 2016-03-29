@@ -9,9 +9,13 @@
 
 #import "CFAAction+Private.h"
 
+NS_ASSUME_NONNULL_BEGIN
+
 @interface CFARepeat : CFAAction
 
 + (CFAAction *)repeatAction:(CFAAction *)action count:(NSUInteger)count;
 + (CFAAction *)repeatActionForever:(CFAAction *)action;
 
 @end
+
+NS_ASSUME_NONNULL_END

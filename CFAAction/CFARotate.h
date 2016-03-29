@@ -9,6 +9,8 @@
 
 #import "CFAAction+Private.h"
 
+NS_ASSUME_NONNULL_BEGIN
+
 @interface CFARotate : CFAAction
 
 + (CFAAction *)rotateByAngle:(CGFloat)radians duration:(NSTimeInterval)sec;
@@ -16,3 +18,5 @@
 + (CFAAction *)rotateToAngle:(CGFloat)radians duration:(NSTimeInterval)sec shortestUnitArc:(BOOL)shortestUnitArc;
 
 @end
+
+NS_ASSUME_NONNULL_END

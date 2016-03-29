@@ -7,7 +7,7 @@
 //  Released under the MIT license.
 //
 
-#import "CFAAction.h"
+#import "CFAAction+Private.h"
 #import "CFARunBlock.h"
 #import "CFASequence.h"
 #import "CFAGroup.h"
@@ -214,7 +214,7 @@ static NSString * CFAMediaTimingFunctionName[4] = {
 }
 
 + (CFAAction *)runBlock:(dispatch_block_t)block {
-	return [CFARunBlock runBlock:block queue:NULL];
+	return [CFARunBlock runBlock:block queue:dispatch_get_main_queue()];
 }
 
 + (CFAAction *)runBlock:(dispatch_block_t)block queue:(dispatch_queue_t)queue {

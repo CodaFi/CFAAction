@@ -24,6 +24,7 @@ typedef NS_ENUM(NSInteger, CFAActionTimingMode) {
 	CFAActionTimingEaseInEaseOut
 };
 
+NS_ASSUME_NONNULL_BEGIN
 
 /// A CFAAction is an action that is executed on a layer.  Actions are most often used to change the
 /// structure and appearance of layers, but can also be used to make other changes to the layer tree,
@@ -66,7 +67,9 @@ typedef NS_ENUM(NSInteger, CFAActionTimingMode) {
 
 @interface CFAAction (CFAActions)
 
+
 #pragma mark - Move Actions
+
 
 /// Creates an action that moves a node relative to its current position.
 + (CFAAction *)moveByX:(CGFloat)deltaX y:(CGFloat)deltaY duration:(NSTimeInterval)sec;
@@ -90,6 +93,7 @@ typedef NS_ENUM(NSInteger, CFAActionTimingMode) {
 
 /// Creates an action that moves the node along a path.
 + (CFAAction *)followPath:(CGPathRef)path asOffset:(BOOL)offset orientToPath:(BOOL)orient duration:(NSTimeInterval)sec;
+
 
 #pragma mark - Rotate Actions
 
@@ -165,6 +169,7 @@ typedef NS_ENUM(NSInteger, CFAActionTimingMode) {
 /// Creates an action that unhides a node.
 + (CFAAction *)unhide;
 
+
 #pragma mark - Combine Actions
 
 
@@ -232,3 +237,5 @@ typedef NS_ENUM(NSInteger, CFAActionTimingMode) {
 - (void)cfa_runAction:(CFAAction *)action completion:(void (^)(void))block;
 
 @end
+
+NS_ASSUME_NONNULL_END

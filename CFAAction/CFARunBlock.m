@@ -15,7 +15,7 @@
 }
 
 + (CFAAction *)runBlock:(dispatch_block_t)block {
-	return [CFAAction runBlock:block queue:NULL];
+	return [CFAAction runBlock:block queue:dispatch_get_main_queue()];
 }
 
 + (CFAAction *)runBlock:(dispatch_block_t)block queue:(dispatch_queue_t)queue {
@@ -39,10 +39,6 @@
 - (void)executeWithTarget:(id)target forTime:(NSTimeInterval)time {
 	if (self.finished) {
 		return;
-	}
-	if (_block == NULL) return;
-	if (_queue == NULL) {
-		_queue = dispatch_get_main_queue();
 	}
 	dispatch_async(_queue, _block);
 	self.finished = YES;

@@ -9,8 +9,12 @@
 
 #import "CFAAction+Private.h"
 
+NS_ASSUME_NONNULL_BEGIN
+
 @interface CFAPerformSelector : CFAAction
 
 + (CFAAction *)performSelector:(SEL)selector onTarget:(id)target;
 
 @end
+
+NS_ASSUME_NONNULL_END

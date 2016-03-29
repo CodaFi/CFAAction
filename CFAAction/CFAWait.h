@@ -9,9 +9,13 @@
 
 #import "CFAAction+Private.h"
 
+NS_ASSUME_NONNULL_BEGIN
+
 @interface CFAWait : CFAAction
 
 + (CFAAction *)waitForDuration:(NSTimeInterval)sec;
 + (CFAAction *)waitForDuration:(NSTimeInterval)sec withRange:(NSTimeInterval)durationRange;
 
 @end
+
+NS_ASSUME_NONNULL_END

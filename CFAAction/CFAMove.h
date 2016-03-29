@@ -9,6 +9,8 @@
 
 #import "CFAAction+Private.h"
 
+NS_ASSUME_NONNULL_BEGIN
+
 @interface CFAMove : CFAAction
 
 + (CFAAction *)moveByX:(CGFloat)deltaX y:(CGFloat)deltaY duration:(NSTimeInterval)sec;
@@ -20,3 +22,5 @@
 + (CFAAction *)moveToY:(CGFloat)y duration:(NSTimeInterval)sec;
 
 @end
+
+NS_ASSUME_NONNULL_END
