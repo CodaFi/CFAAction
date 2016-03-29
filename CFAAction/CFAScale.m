@@ -81,7 +81,6 @@ typedef NS_ENUM(int, CFScaleSubtype) {
 	return copiedAction;
 }
 
-
 - (void)executeWithTarget:(CALayer *)target forTime:(NSTimeInterval)time {
 	float newX = CATransform3DGetAffineTransform(target.transform).a;
 	float newY = CATransform3DGetAffineTransform(target.transform).b;
@@ -113,6 +112,7 @@ typedef NS_ENUM(int, CFScaleSubtype) {
 	scaleX.toValue = [NSNumber numberWithFloat:newX];
 	scaleX.fillMode = kCAFillModeForwards;
 	scaleX.removedOnCompletion = NO;
+	scaleX.beginTime = time;
 	scaleX.cumulative = YES;
 	scaleX.timingFunction = self.timingFunction;
 
@@ -122,11 +122,12 @@ typedef NS_ENUM(int, CFScaleSubtype) {
 	scaleY.toValue = [NSNumber numberWithFloat:newY];
 	scaleY.fillMode = kCAFillModeForwards;
 	scaleY.removedOnCompletion = NO;
+	scaleY.beginTime = time;
 	scaleY.cumulative = YES;
 	scaleY.timingFunction = self.timingFunction;
 
-	[target addAnimation:scaleX forKey:CFAScaleKeypath];
-	[target addAnimation:scaleY forKey:CFAScaleKeypath];
+	[target addAnimation:scaleX forKey:CFAScaleXKeypath];
+	[target addAnimation:scaleY forKey:CFAScaleYKeypath];
 }
 
 @end
