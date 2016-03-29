@@ -9,6 +9,8 @@
 
 #import "CFAAction+Private.h"
 
+NS_ASSUME_NONNULL_BEGIN
+
 @interface CFAFade : CFAAction
 
 + (CFAAction *)fadeInWithDuration:(NSTimeInterval)sec;
@@ -17,3 +19,5 @@
 + (CFAAction *)fadeAlphaTo:(CGFloat)alpha duration:(NSTimeInterval)sec;
 
 @end
+
+NS_ASSUME_NONNULL_END

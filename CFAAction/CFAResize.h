@@ -9,6 +9,8 @@
 
 #import "CFAAction+Private.h"
 
+NS_ASSUME_NONNULL_BEGIN
+
 @interface CFAResize : CFAAction
 
 + (CFAAction *)resizeByWidth:(CGFloat)width height:(CGFloat)height duration:(NSTimeInterval)duration;
@@ -17,3 +19,5 @@
 + (CFAAction *)resizeToHeight:(CGFloat)height duration:(NSTimeInterval)duration;
 
 @end
+
+NS_ASSUME_NONNULL_END

@@ -22,10 +22,21 @@
 	return action;
 }
 
+- (id)copyWithZone:(NSZone *)zone {
+	CFACustomAction *copyAction = [super copyWithZone:zone];
+	copyAction->_actionBlock = [_actionBlock copy];
+	
+	return copyAction;
+}
+
+- (CFAAction *)reversedAction {
+	return [self copy];
+}
+
 - (void)executeWithTarget:(CALayer *)target forTime:(NSTimeInterval)time {
-	if (_actionBlock != NULL) {
-		_actionBlock(target, time);
-	}
+	NSCAssert(_actionBlock != NULL, @"CFACustomAction created with NULL custom action");
+	
+	_actionBlock(target, time);
 	self.finished = YES;
 }
 

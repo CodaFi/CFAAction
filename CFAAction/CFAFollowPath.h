@@ -9,9 +9,13 @@
 
 #import "CFAAction+Private.h"
 
+NS_ASSUME_NONNULL_BEGIN
+
 @interface CFAFollowPath : CFAAction
 
 + (CFAAction *)followPath:(CGPathRef)path duration:(NSTimeInterval)sec;
 + (CFAAction *)followPath:(CGPathRef)path asOffset:(BOOL)offset orientToPath:(BOOL)orient duration:(NSTimeInterval)sec;
 
 @end
+
+NS_ASSUME_NONNULL_END

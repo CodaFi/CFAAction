@@ -9,9 +9,13 @@
 
 #import "CFAAction+Private.h"
 
+NS_ASSUME_NONNULL_BEGIN
+
 @interface CFASpeed : CFAAction
 
 + (CFAAction *)speedBy:(CGFloat)speed duration:(NSTimeInterval)sec;
 + (CFAAction *)speedTo:(CGFloat)speed duration:(NSTimeInterval)sec;
 
 @end
+
+NS_ASSUME_NONNULL_END
